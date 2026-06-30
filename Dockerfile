@@ -42,4 +42,4 @@ COPY nginx.conf /etc/nginx/sites-available/default
 EXPOSE 80
 
 # أمر التشغيل الذي يربط PHP بـ Nginx مباشرة لإنهاء الطلبات ومنع الـ Timeout
-CMD php artisan migrate --force && service nginx start && php-fpm
+CMD php artisan config:clear && php artisan cache:clear && php artisan view:cache && php artisan migrate --force && service nginx start && php-fpm
