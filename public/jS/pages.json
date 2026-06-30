@@ -1,0 +1,2762 @@
+[
+    {
+        "title": "Home",
+        "url": "/",
+        "routeName": "index"
+    },
+    {
+        "title": "About Us",
+        "url": "/AboutUs",
+        "routeName": "AboutUs"
+    },
+    {
+        "title": "Developers",
+        "url": "/Developers",
+        "routeName": "Developers"
+    },
+    {
+        "title": "Front End",
+        "url": "/FrontEnd",
+        "routeName": "FrontEnd"
+    },
+    {
+        "title": "MDN Web Docs",
+        "url": "/MDNWebDocs",
+        "routeName": "MDNWebDocs"
+    },
+    {
+        "title": "Stack Blitz",
+        "url": "/StackBlitz",
+        "routeName": "StackBlitz"
+    },
+    {
+        "title": "W3Schools",
+        "url": "/W3Schools",
+        "routeName": "W3Schools"
+    },
+    {
+        "title": "Web Dev",
+        "url": "/WebDev",
+        "routeName": "WebDev"
+    },
+    {
+        "title": "Frontend Mentor",
+        "url": "/FrontendMentor",
+        "routeName": "FrontendMentor"
+    },
+    {
+        "title": "Collect UI",
+        "url": "/CollectUI",
+        "routeName": "CollectUI"
+    },
+    {
+        "title": "CSS Tricks",
+        "url": "/CSSTricks",
+        "routeName": "CSSTricks"
+    },
+    {
+        "title": "Animista",
+        "url": "/Animista",
+        "routeName": "Animista"
+    },
+    {
+        "title": "UI Gradients",
+        "url": "/UIGradients",
+        "routeName": "UIGradients"
+    },
+    {
+        "title": "Neumorphismio",
+        "url": "/Neumorphismio",
+        "routeName": "Neumorphismio"
+    },
+    {
+        "title": "Code Pen",
+        "url": "/CodePen",
+        "routeName": "CodePen"
+    },
+    {
+        "title": "Code Sandbox",
+        "url": "/CodeSandbox",
+        "routeName": "CodeSandbox"
+    },
+    {
+        "title": "Font Awesome",
+        "url": "/FontAwesome",
+        "routeName": "FontAwesome"
+    },
+    {
+        "title": "Roadmap Sh",
+        "url": "/RoadmapSh",
+        "routeName": "RoadmapSh"
+    },
+    {
+        "title": "Lucide Icons",
+        "url": "/LucideIcons",
+        "routeName": "LucideIcons"
+    },
+    {
+        "title": "Uiverse Io",
+        "url": "/UiverseIo",
+        "routeName": "UiverseIo"
+    },
+    {
+        "title": "caniuse",
+        "url": "/caniuse",
+        "routeName": "caniuse"
+    },
+    {
+        "title": "Git Hub",
+        "url": "/GitHub",
+        "routeName": "GitHub"
+    },
+    {
+        "title": "Netlify",
+        "url": "/Netlify",
+        "routeName": "Netlify"
+    },
+    {
+        "title": "Vercel",
+        "url": "/Vercel",
+        "routeName": "Vercel"
+    },
+    {
+        "title": "free Code Camp",
+        "url": "/freeCodeCamp",
+        "routeName": "freeCodeCamp"
+    },
+    {
+        "title": "JS Fiddle",
+        "url": "/JSFiddle",
+        "routeName": "JSFiddle"
+    },
+    {
+        "title": "Universe Website Builder",
+        "url": "/UniverseWebsiteBuilder",
+        "routeName": "UniverseWebsiteBuilder"
+    },
+    {
+        "title": "Magic UI",
+        "url": "/MagicUI",
+        "routeName": "MagicUI"
+    },
+    {
+        "title": "Bootstrap",
+        "url": "/Bootstrap",
+        "routeName": "Bootstrap"
+    },
+    {
+        "title": "Tailwind",
+        "url": "/Tailwind",
+        "routeName": "Tailwind"
+    },
+    {
+        "title": "Scrimba",
+        "url": "/Scrimba",
+        "routeName": "Scrimba"
+    },
+    {
+        "title": "One Page Love",
+        "url": "/OnePageLove",
+        "routeName": "OnePageLove"
+    },
+    {
+        "title": "Lapa Ninja",
+        "url": "/LapaNinja",
+        "routeName": "LapaNinja"
+    },
+    {
+        "title": "Responsively App",
+        "url": "/ResponsivelyApp",
+        "routeName": "ResponsivelyApp"
+    },
+    {
+        "title": "Figma",
+        "url": "/Figma",
+        "routeName": "Figma"
+    },
+    {
+        "title": "Page Speed Insights",
+        "url": "/PageSpeedInsights",
+        "routeName": "PageSpeedInsights"
+    },
+    {
+        "title": "Daisy UI",
+        "url": "/DaisyUI",
+        "routeName": "DaisyUI"
+    },
+    {
+        "title": "Remove Bg",
+        "url": "/RemoveBg",
+        "routeName": "RemoveBg"
+    },
+    {
+        "title": "Back End",
+        "url": "/BackEnd",
+        "routeName": "BackEnd"
+    },
+    {
+        "title": "Draw Io",
+        "url": "/DrawIo",
+        "routeName": "DrawIo"
+    },
+    {
+        "title": "Insomnia",
+        "url": "/Insomnia",
+        "routeName": "Insomnia"
+    },
+    {
+        "title": "dbdiagram Io",
+        "url": "/dbdiagramIo",
+        "routeName": "dbdiagramIo"
+    },
+    {
+        "title": "Dev Docs Io",
+        "url": "/DevDocsIo",
+        "routeName": "DevDocsIo"
+    },
+    {
+        "title": "Hoppscotch",
+        "url": "/Hoppscotch",
+        "routeName": "Hoppscotch"
+    },
+    {
+        "title": "Postman",
+        "url": "/Postman",
+        "routeName": "Postman"
+    },
+    {
+        "title": "JSON Placeholder",
+        "url": "/JSONPlaceholder",
+        "routeName": "JSONPlaceholder"
+    },
+    {
+        "title": "Regex101",
+        "url": "/Regex101",
+        "routeName": "Regex101"
+    },
+    {
+        "title": "Byte Byte Go",
+        "url": "/ByteByteGo",
+        "routeName": "ByteByteGo"
+    },
+    {
+        "title": "Eraser Io",
+        "url": "/EraserIo",
+        "routeName": "EraserIo"
+    },
+    {
+        "title": "Excalidraw",
+        "url": "/Excalidraw",
+        "routeName": "Excalidraw"
+    },
+    {
+        "title": "Firebase",
+        "url": "/Firebase",
+        "routeName": "Firebase"
+    },
+    {
+        "title": "Supabase",
+        "url": "/Supabase",
+        "routeName": "Supabase"
+    },
+    {
+        "title": "Railway",
+        "url": "/Railway",
+        "routeName": "Railway"
+    },
+    {
+        "title": "Render",
+        "url": "/Render",
+        "routeName": "Render"
+    },
+    {
+        "title": "OWASP",
+        "url": "/OWASP",
+        "routeName": "OWASP"
+    },
+    {
+        "title": "K6 Io",
+        "url": "/K6Io",
+        "routeName": "K6Io"
+    },
+    {
+        "title": "Stack Overflow",
+        "url": "/StackOverflow",
+        "routeName": "StackOverflow"
+    },
+    {
+        "title": "Geeksfor Geeks",
+        "url": "/GeeksforGeeks",
+        "routeName": "GeeksforGeeks"
+    },
+    {
+        "title": "Swagger",
+        "url": "/Swagger",
+        "routeName": "Swagger"
+    },
+    {
+        "title": "Mongo DB",
+        "url": "/MongoDB",
+        "routeName": "MongoDB"
+    },
+    {
+        "title": "My SQL",
+        "url": "/MySQL",
+        "routeName": "MySQL"
+    },
+    {
+        "title": "Postgre SQL",
+        "url": "/PostgreSQL",
+        "routeName": "PostgreSQL"
+    },
+    {
+        "title": "Redis",
+        "url": "/Redis",
+        "routeName": "Redis"
+    },
+    {
+        "title": "Heroku",
+        "url": "/Heroku",
+        "routeName": "Heroku"
+    },
+    {
+        "title": "Digital Ocean",
+        "url": "/DigitalOcean",
+        "routeName": "DigitalOcean"
+    },
+    {
+        "title": "JWT Io",
+        "url": "/JWTIo",
+        "routeName": "JWTIo"
+    },
+    {
+        "title": "Have I Been Pwned",
+        "url": "/HaveIBeenPwned",
+        "routeName": "HaveIBeenPwned"
+    },
+    {
+        "title": "Docker",
+        "url": "/Docker",
+        "routeName": "Docker"
+    },
+    {
+        "title": "Cloudinary",
+        "url": "/Cloudinary",
+        "routeName": "Cloudinary"
+    },
+    {
+        "title": "Spatie",
+        "url": "/Spatie",
+        "routeName": "Spatie"
+    },
+    {
+        "title": "Mobile App",
+        "url": "/MobileApp",
+        "routeName": "MobileApp"
+    },
+    {
+        "title": "Android Developers",
+        "url": "/AndroidDevelopers",
+        "routeName": "AndroidDevelopers"
+    },
+    {
+        "title": "Apple Developer",
+        "url": "/AppleDeveloper",
+        "routeName": "AppleDeveloper"
+    },
+    {
+        "title": "App Gyver",
+        "url": "/AppGyver",
+        "routeName": "AppGyver"
+    },
+    {
+        "title": "Flutter Dev",
+        "url": "/FlutterDev",
+        "routeName": "FlutterDev"
+    },
+    {
+        "title": "React Native Dev",
+        "url": "/ReactNativeDev",
+        "routeName": "ReactNativeDev"
+    },
+    {
+        "title": "pub Dev",
+        "url": "/pubDev",
+        "routeName": "pubDev"
+    },
+    {
+        "title": "npm",
+        "url": "/npm",
+        "routeName": "npm"
+    },
+    {
+        "title": "Material Design",
+        "url": "/MaterialDesign",
+        "routeName": "MaterialDesign"
+    },
+    {
+        "title": "Rive App",
+        "url": "/RiveApp",
+        "routeName": "RiveApp"
+    },
+    {
+        "title": "v0 Dev",
+        "url": "/v0Dev",
+        "routeName": "v0Dev"
+    },
+    {
+        "title": "Codemagic",
+        "url": "/Codemagic",
+        "routeName": "Codemagic"
+    },
+    {
+        "title": "Expo Application Services",
+        "url": "/ExpoApplicationServices",
+        "routeName": "ExpoApplicationServices"
+    },
+    {
+        "title": "App Icon Generator",
+        "url": "/AppIconGenerator",
+        "routeName": "AppIconGenerator"
+    },
+    {
+        "title": "Haikei",
+        "url": "/Haikei",
+        "routeName": "Haikei"
+    },
+    {
+        "title": "Diawi",
+        "url": "/Diawi",
+        "routeName": "Diawi"
+    },
+    {
+        "title": "Browser Stack",
+        "url": "/BrowserStack",
+        "routeName": "BrowserStack"
+    },
+    {
+        "title": "JSON Crack",
+        "url": "/JSONCrack",
+        "routeName": "JSONCrack"
+    },
+    {
+        "title": "Mockoon",
+        "url": "/Mockoon",
+        "routeName": "Mockoon"
+    },
+    {
+        "title": "mockapi",
+        "url": "/mockapi",
+        "routeName": "mockapi"
+    },
+    {
+        "title": "Appradar",
+        "url": "/Appradar",
+        "routeName": "Appradar"
+    },
+    {
+        "title": "Revenue Cat",
+        "url": "/RevenueCat",
+        "routeName": "RevenueCat"
+    },
+    {
+        "title": "One Signal",
+        "url": "/OneSignal",
+        "routeName": "OneSignal"
+    },
+    {
+        "title": "App Follow",
+        "url": "/AppFollow",
+        "routeName": "AppFollow"
+    },
+    {
+        "title": "Data Ai",
+        "url": "/DataAi",
+        "routeName": "DataAi"
+    },
+    {
+        "title": "Sensor Tower",
+        "url": "/SensorTower",
+        "routeName": "SensorTower"
+    },
+    {
+        "title": "medium",
+        "url": "/medium",
+        "routeName": "medium"
+    },
+    {
+        "title": "Flutter Gems",
+        "url": "/FlutterGems",
+        "routeName": "FlutterGems"
+    },
+    {
+        "title": "Kotlinlang",
+        "url": "/Kotlinlang",
+        "routeName": "Kotlinlang"
+    },
+    {
+        "title": "swift",
+        "url": "/swift",
+        "routeName": "swift"
+    },
+    {
+        "title": "Unity",
+        "url": "/Unity",
+        "routeName": "Unity"
+    },
+    {
+        "title": "Unreal Engine",
+        "url": "/UnrealEngine",
+        "routeName": "UnrealEngine"
+    },
+    {
+        "title": "Construct",
+        "url": "/Construct",
+        "routeName": "Construct"
+    },
+    {
+        "title": "Godot Engine",
+        "url": "/GodotEngine",
+        "routeName": "GodotEngine"
+    },
+    {
+        "title": "Itch Io",
+        "url": "/ItchIo",
+        "routeName": "ItchIo"
+    },
+    {
+        "title": "Sketchfab",
+        "url": "/Sketchfab",
+        "routeName": "Sketchfab"
+    },
+    {
+        "title": "Turbo Squid",
+        "url": "/TurboSquid",
+        "routeName": "TurboSquid"
+    },
+    {
+        "title": "Open Game Art",
+        "url": "/OpenGameArt",
+        "routeName": "OpenGameArt"
+    },
+    {
+        "title": "Freesound",
+        "url": "/Freesound",
+        "routeName": "Freesound"
+    },
+    {
+        "title": "Soniss",
+        "url": "/Soniss",
+        "routeName": "Soniss"
+    },
+    {
+        "title": "Incompetech",
+        "url": "/Incompetech",
+        "routeName": "Incompetech"
+    },
+    {
+        "title": "Stack Exchange",
+        "url": "/StackExchange",
+        "routeName": "StackExchange"
+    },
+    {
+        "title": "Game Developer Web",
+        "url": "/GameDeveloperWeb",
+        "routeName": "GameDeveloperWeb"
+    },
+    {
+        "title": "Game Maker",
+        "url": "/GameMaker",
+        "routeName": "GameMaker"
+    },
+    {
+        "title": "Unity Learn",
+        "url": "/UnityLearn",
+        "routeName": "UnityLearn"
+    },
+    {
+        "title": "brackeys",
+        "url": "/brackeys",
+        "routeName": "brackeys"
+    },
+    {
+        "title": "Kenney Assets",
+        "url": "/KenneyAssets",
+        "routeName": "KenneyAssets"
+    },
+    {
+        "title": "Poly Pizza",
+        "url": "/PolyPizza",
+        "routeName": "PolyPizza"
+    },
+    {
+        "title": "Indie DB",
+        "url": "/IndieDB",
+        "routeName": "IndieDB"
+    },
+    {
+        "title": "Steamworks",
+        "url": "/Steamworks",
+        "routeName": "Steamworks"
+    },
+    {
+        "title": "Game Design Lounge",
+        "url": "/GameDesignLounge",
+        "routeName": "GameDesignLounge"
+    },
+    {
+        "title": "CG Trader",
+        "url": "/CGTrader",
+        "routeName": "CGTrader"
+    },
+    {
+        "title": "Mixamo",
+        "url": "/Mixamo",
+        "routeName": "Mixamo"
+    },
+    {
+        "title": "Cascadeur",
+        "url": "/Cascadeur",
+        "routeName": "Cascadeur"
+    },
+    {
+        "title": "Inworld AI",
+        "url": "/InworldAI",
+        "routeName": "InworldAI"
+    },
+    {
+        "title": "Leonardo AI",
+        "url": "/LeonardoAI",
+        "routeName": "LeonardoAI"
+    },
+    {
+        "title": "Phaser",
+        "url": "/Phaser",
+        "routeName": "Phaser"
+    },
+    {
+        "title": "Babylon Js",
+        "url": "/BabylonJs",
+        "routeName": "BabylonJs"
+    },
+    {
+        "title": "Three Js",
+        "url": "/ThreeJs",
+        "routeName": "ThreeJs"
+    },
+    {
+        "title": "Play Fab",
+        "url": "/PlayFab",
+        "routeName": "PlayFab"
+    },
+    {
+        "title": "Game Analytics",
+        "url": "/GameAnalytics",
+        "routeName": "GameAnalytics"
+    },
+    {
+        "title": "Level80",
+        "url": "/Level80",
+        "routeName": "Level80"
+    },
+    {
+        "title": "Plastic SCM",
+        "url": "/PlasticSCM",
+        "routeName": "PlasticSCM"
+    },
+    {
+        "title": "Perforce",
+        "url": "/Perforce",
+        "routeName": "Perforce"
+    },
+    {
+        "title": "Red Blob Games",
+        "url": "/RedBlobGames",
+        "routeName": "RedBlobGames"
+    },
+    {
+        "title": "Global Game Jam",
+        "url": "/GlobalGameJam",
+        "routeName": "GlobalGameJam"
+    },
+    {
+        "title": "AI Development",
+        "url": "/AIDevelopment",
+        "routeName": "AIDevelopment"
+    },
+    {
+        "title": "Hugging Face",
+        "url": "/HuggingFace",
+        "routeName": "HuggingFace"
+    },
+    {
+        "title": "Kaggle",
+        "url": "/Kaggle",
+        "routeName": "Kaggle"
+    },
+    {
+        "title": "Cohere",
+        "url": "/Cohere",
+        "routeName": "Cohere"
+    },
+    {
+        "title": "Open AI Platform",
+        "url": "/OpenAIPlatform",
+        "routeName": "OpenAIPlatform"
+    },
+    {
+        "title": "Google AI Studio",
+        "url": "/GoogleAIStudio",
+        "routeName": "GoogleAIStudio"
+    },
+    {
+        "title": "Vertex AI",
+        "url": "/VertexAI",
+        "routeName": "VertexAI"
+    },
+    {
+        "title": "Anthropic Console",
+        "url": "/AnthropicConsole",
+        "routeName": "AnthropicConsole"
+    },
+    {
+        "title": "Silicon Flow",
+        "url": "/SiliconFlow",
+        "routeName": "SiliconFlow"
+    },
+    {
+        "title": "Replicate",
+        "url": "/Replicate",
+        "routeName": "Replicate"
+    },
+    {
+        "title": "Google Colab",
+        "url": "/GoogleColab",
+        "routeName": "GoogleColab"
+    },
+    {
+        "title": "Paperspace Gradient",
+        "url": "/PaperspaceGradient",
+        "routeName": "PaperspaceGradient"
+    },
+    {
+        "title": "Cursor",
+        "url": "/Cursor",
+        "routeName": "Cursor"
+    },
+    {
+        "title": "Bolt New",
+        "url": "/BoltNew",
+        "routeName": "BoltNew"
+    },
+    {
+        "title": "Pinecone",
+        "url": "/Pinecone",
+        "routeName": "Pinecone"
+    },
+    {
+        "title": "Lang Smith",
+        "url": "/LangSmith",
+        "routeName": "LangSmith"
+    },
+    {
+        "title": "Groq Cloud",
+        "url": "/GroqCloud",
+        "routeName": "GroqCloud"
+    },
+    {
+        "title": "Together AI",
+        "url": "/TogetherAI",
+        "routeName": "TogetherAI"
+    },
+    {
+        "title": "Mistral AI",
+        "url": "/MistralAI",
+        "routeName": "MistralAI"
+    },
+    {
+        "title": "Ollama",
+        "url": "/Ollama",
+        "routeName": "Ollama"
+    },
+    {
+        "title": "LM Studio",
+        "url": "/LMStudio",
+        "routeName": "LMStudio"
+    },
+    {
+        "title": "Llama Index",
+        "url": "/LlamaIndex",
+        "routeName": "LlamaIndex"
+    },
+    {
+        "title": "Model Scope",
+        "url": "/ModelScope",
+        "routeName": "ModelScope"
+    },
+    {
+        "title": "Haystack",
+        "url": "/Haystack",
+        "routeName": "Haystack"
+    },
+    {
+        "title": "Py Torch",
+        "url": "/PyTorch",
+        "routeName": "PyTorch"
+    },
+    {
+        "title": "Tensor Flow",
+        "url": "/TensorFlow",
+        "routeName": "TensorFlow"
+    },
+    {
+        "title": "Keras",
+        "url": "/Keras",
+        "routeName": "Keras"
+    },
+    {
+        "title": "Paperswith Code",
+        "url": "/PaperswithCode",
+        "routeName": "PaperswithCode"
+    },
+    {
+        "title": "ar Xiv AI Papers",
+        "url": "/arXivAIPapers",
+        "routeName": "arXivAIPapers"
+    },
+    {
+        "title": "Towards Data Science",
+        "url": "/TowardsDataScience",
+        "routeName": "TowardsDataScience"
+    },
+    {
+        "title": "UCI Machine Learning Repository",
+        "url": "/UCIMachineLearningRepository",
+        "routeName": "UCIMachineLearningRepository"
+    },
+    {
+        "title": "Analytics Vidhya",
+        "url": "/AnalyticsVidhya",
+        "routeName": "AnalyticsVidhya"
+    },
+    {
+        "title": "claude",
+        "url": "/claude",
+        "routeName": "claude"
+    },
+    {
+        "title": "Crew AI",
+        "url": "/CrewAI",
+        "routeName": "CrewAI"
+    },
+    {
+        "title": "copilot",
+        "url": "/copilot",
+        "routeName": "copilot"
+    },
+    {
+        "title": "Data Science",
+        "url": "/DataScience",
+        "routeName": "DataScience"
+    },
+    {
+        "title": "Driven Data",
+        "url": "/DrivenData",
+        "routeName": "DrivenData"
+    },
+    {
+        "title": "Dataquest",
+        "url": "/Dataquest",
+        "routeName": "Dataquest"
+    },
+    {
+        "title": "Deepnote",
+        "url": "/Deepnote",
+        "routeName": "Deepnote"
+    },
+    {
+        "title": "Data Camp",
+        "url": "/DataCamp",
+        "routeName": "DataCamp"
+    },
+    {
+        "title": "Coursera",
+        "url": "/Coursera",
+        "routeName": "Coursera"
+    },
+    {
+        "title": "K Dnuggets",
+        "url": "/KDnuggets",
+        "routeName": "KDnuggets"
+    },
+    {
+        "title": "Cross Validated",
+        "url": "/CrossValidated",
+        "routeName": "CrossValidated"
+    },
+    {
+        "title": "Jupyter Notebook",
+        "url": "/JupyterNotebook",
+        "routeName": "JupyterNotebook"
+    },
+    {
+        "title": "Zindi",
+        "url": "/Zindi",
+        "routeName": "Zindi"
+    },
+    {
+        "title": "A Icrowd",
+        "url": "/AIcrowd",
+        "routeName": "AIcrowd"
+    },
+    {
+        "title": "Google Dataset Search",
+        "url": "/GoogleDatasetSearch",
+        "routeName": "GoogleDatasetSearch"
+    },
+    {
+        "title": "Our Worldin Data",
+        "url": "/OurWorldinData",
+        "routeName": "OurWorldinData"
+    },
+    {
+        "title": "Distill Pub",
+        "url": "/DistillPub",
+        "routeName": "DistillPub"
+    },
+    {
+        "title": "ed X",
+        "url": "/edX",
+        "routeName": "edX"
+    },
+    {
+        "title": "Data Gov",
+        "url": "/DataGov",
+        "routeName": "DataGov"
+    },
+    {
+        "title": "Pandas Documentation",
+        "url": "/PandasDocumentation",
+        "routeName": "PandasDocumentation"
+    },
+    {
+        "title": "Num Py Documentation",
+        "url": "/NumPyDocumentation",
+        "routeName": "NumPyDocumentation"
+    },
+    {
+        "title": "Leet Code",
+        "url": "/LeetCode",
+        "routeName": "LeetCode"
+    },
+    {
+        "title": "Hacker Rank",
+        "url": "/HackerRank",
+        "routeName": "HackerRank"
+    },
+    {
+        "title": "Power BI",
+        "url": "/PowerBI",
+        "routeName": "PowerBI"
+    },
+    {
+        "title": "Open ML",
+        "url": "/OpenML",
+        "routeName": "OpenML"
+    },
+    {
+        "title": "Deep Learning AI",
+        "url": "/DeepLearningAI",
+        "routeName": "DeepLearningAI"
+    },
+    {
+        "title": "Statology",
+        "url": "/Statology",
+        "routeName": "Statology"
+    },
+    {
+        "title": "Zenodo",
+        "url": "/Zenodo",
+        "routeName": "Zenodo"
+    },
+    {
+        "title": "Dask",
+        "url": "/Dask",
+        "routeName": "Dask"
+    },
+    {
+        "title": "World Bank Open Data",
+        "url": "/WorldBankOpenData",
+        "routeName": "WorldBankOpenData"
+    },
+    {
+        "title": "Games Development",
+        "url": "/GamesDevelopment",
+        "routeName": "GamesDevelopment"
+    },
+    {
+        "title": "Animation And 3D",
+        "url": "/AnimationAnd3D",
+        "routeName": "AnimationAnd3D"
+    },
+    {
+        "title": "Spline",
+        "url": "/Spline",
+        "routeName": "Spline"
+    },
+    {
+        "title": "Blender Studio",
+        "url": "/BlenderStudio",
+        "routeName": "BlenderStudio"
+    },
+    {
+        "title": "CG Cookie",
+        "url": "/CGCookie",
+        "routeName": "CGCookie"
+    },
+    {
+        "title": "Blender",
+        "url": "/Blender",
+        "routeName": "Blender"
+    },
+    {
+        "title": "Autodesk Maya",
+        "url": "/AutodeskMaya",
+        "routeName": "AutodeskMaya"
+    },
+    {
+        "title": "Anim School",
+        "url": "/AnimSchool",
+        "routeName": "AnimSchool"
+    },
+    {
+        "title": "Render Hub",
+        "url": "/RenderHub",
+        "routeName": "RenderHub"
+    },
+    {
+        "title": "Free3D",
+        "url": "/Free3D",
+        "routeName": "Free3D"
+    },
+    {
+        "title": "Blend Swap",
+        "url": "/BlendSwap",
+        "routeName": "BlendSwap"
+    },
+    {
+        "title": "Textures Com",
+        "url": "/TexturesCom",
+        "routeName": "TexturesCom"
+    },
+    {
+        "title": "Poly Haven",
+        "url": "/PolyHaven",
+        "routeName": "PolyHaven"
+    },
+    {
+        "title": "ambient CG",
+        "url": "/ambientCG",
+        "routeName": "ambientCG"
+    },
+    {
+        "title": "Autodesk 3ds Max",
+        "url": "/Autodesk3dsMax",
+        "routeName": "Autodesk3dsMax"
+    },
+    {
+        "title": "Houdini",
+        "url": "/Houdini",
+        "routeName": "Houdini"
+    },
+    {
+        "title": "Z Brush",
+        "url": "/ZBrush",
+        "routeName": "ZBrush"
+    },
+    {
+        "title": "Textures Me3D",
+        "url": "/TexturesMe3D",
+        "routeName": "TexturesMe3D"
+    },
+    {
+        "title": "Reallusion",
+        "url": "/Reallusion",
+        "routeName": "Reallusion"
+    },
+    {
+        "title": "Quixel Megascans",
+        "url": "/QuixelMegascans",
+        "routeName": "QuixelMegascans"
+    },
+    {
+        "title": "Daz3D",
+        "url": "/Daz3D",
+        "routeName": "Daz3D"
+    },
+    {
+        "title": "Meta Human Creator",
+        "url": "/MetaHumanCreator",
+        "routeName": "MetaHumanCreator"
+    },
+    {
+        "title": "Action VFX",
+        "url": "/ActionVFX",
+        "routeName": "ActionVFX"
+    },
+    {
+        "title": "Production Crate",
+        "url": "/ProductionCrate",
+        "routeName": "ProductionCrate"
+    },
+    {
+        "title": "Video Copilot",
+        "url": "/VideoCopilot",
+        "routeName": "VideoCopilot"
+    },
+    {
+        "title": "Chaos V Ray",
+        "url": "/ChaosVRay",
+        "routeName": "ChaosVRay"
+    },
+    {
+        "title": "Corona Renderer",
+        "url": "/CoronaRenderer",
+        "routeName": "CoronaRenderer"
+    },
+    {
+        "title": "Octane Render",
+        "url": "/OctaneRender",
+        "routeName": "OctaneRender"
+    },
+    {
+        "title": "Redshift",
+        "url": "/Redshift",
+        "routeName": "Redshift"
+    },
+    {
+        "title": "Schoolof Motion",
+        "url": "/SchoolofMotion",
+        "routeName": "SchoolofMotion"
+    },
+    {
+        "title": "Motion Design School",
+        "url": "/MotionDesignSchool",
+        "routeName": "MotionDesignSchool"
+    },
+    {
+        "title": "Kaiber",
+        "url": "/Kaiber",
+        "routeName": "Kaiber"
+    },
+    {
+        "title": "Meshy AI",
+        "url": "/MeshyAI",
+        "routeName": "MeshyAI"
+    },
+    {
+        "title": "UI Design",
+        "url": "/UIDesign",
+        "routeName": "UIDesign"
+    },
+    {
+        "title": "Storyset",
+        "url": "/Storyset",
+        "routeName": "Storyset"
+    },
+    {
+        "title": "Iconify",
+        "url": "/Iconify",
+        "routeName": "Iconify"
+    },
+    {
+        "title": "UX Pin",
+        "url": "/UXPin",
+        "routeName": "UXPin"
+    },
+    {
+        "title": "Figma Community",
+        "url": "/FigmaCommunity",
+        "routeName": "FigmaCommunity"
+    },
+    {
+        "title": "Land Book",
+        "url": "/LandBook",
+        "routeName": "LandBook"
+    },
+    {
+        "title": "Page Flows",
+        "url": "/PageFlows",
+        "routeName": "PageFlows"
+    },
+    {
+        "title": "Saa Sframe",
+        "url": "/SaaSframe",
+        "routeName": "SaaSframe"
+    },
+    {
+        "title": "Realtime Colors",
+        "url": "/RealtimeColors",
+        "routeName": "RealtimeColors"
+    },
+    {
+        "title": "Typewolf",
+        "url": "/Typewolf",
+        "routeName": "Typewolf"
+    },
+    {
+        "title": "Font Share",
+        "url": "/FontShare",
+        "routeName": "FontShare"
+    },
+    {
+        "title": "Whimsical",
+        "url": "/Whimsical",
+        "routeName": "Whimsical"
+    },
+    {
+        "title": "Balsamiq",
+        "url": "/Balsamiq",
+        "routeName": "Balsamiq"
+    },
+    {
+        "title": "Lawsof UX",
+        "url": "/LawsofUX",
+        "routeName": "LawsofUX"
+    },
+    {
+        "title": "Nielsen Norman Group",
+        "url": "/NielsenNormanGroup",
+        "routeName": "NielsenNormanGroup"
+    },
+    {
+        "title": "UX Archive",
+        "url": "/UXArchive",
+        "routeName": "UXArchive"
+    },
+    {
+        "title": "Growth Design",
+        "url": "/GrowthDesign",
+        "routeName": "GrowthDesign"
+    },
+    {
+        "title": "Sketch",
+        "url": "/Sketch",
+        "routeName": "Sketch"
+    },
+    {
+        "title": "Axure RP",
+        "url": "/AxureRP",
+        "routeName": "AxureRP"
+    },
+    {
+        "title": "Adobe XD",
+        "url": "/AdobeXD",
+        "routeName": "AdobeXD"
+    },
+    {
+        "title": "UI8",
+        "url": "/UI8",
+        "routeName": "UI8"
+    },
+    {
+        "title": "Editing",
+        "url": "/Editing",
+        "routeName": "Editing"
+    },
+    {
+        "title": "Photopea",
+        "url": "/Photopea",
+        "routeName": "Photopea"
+    },
+    {
+        "title": "Clipchamp",
+        "url": "/Clipchamp",
+        "routeName": "Clipchamp"
+    },
+    {
+        "title": "Kapwing",
+        "url": "/Kapwing",
+        "routeName": "Kapwing"
+    },
+    {
+        "title": "Adobe Premiere Pro",
+        "url": "/AdobePremierePro",
+        "routeName": "AdobePremierePro"
+    },
+    {
+        "title": "Da Vinci Resolve",
+        "url": "/DaVinciResolve",
+        "routeName": "DaVinciResolve"
+    },
+    {
+        "title": "Cap Cut",
+        "url": "/CapCut",
+        "routeName": "CapCut"
+    },
+    {
+        "title": "Veed Io",
+        "url": "/VeedIo",
+        "routeName": "VeedIo"
+    },
+    {
+        "title": "In Video",
+        "url": "/InVideo",
+        "routeName": "InVideo"
+    },
+    {
+        "title": "Animoto",
+        "url": "/Animoto",
+        "routeName": "Animoto"
+    },
+    {
+        "title": "Mixkit",
+        "url": "/Mixkit",
+        "routeName": "Mixkit"
+    },
+    {
+        "title": "Epidemic Sound",
+        "url": "/EpidemicSound",
+        "routeName": "EpidemicSound"
+    },
+    {
+        "title": "Pixabay",
+        "url": "/Pixabay",
+        "routeName": "Pixabay"
+    },
+    {
+        "title": "Pexels Video",
+        "url": "/PexelsVideo",
+        "routeName": "PexelsVideo"
+    },
+    {
+        "title": "Videezy",
+        "url": "/Videezy",
+        "routeName": "Videezy"
+    },
+    {
+        "title": "Motion Array",
+        "url": "/MotionArray",
+        "routeName": "MotionArray"
+    },
+    {
+        "title": "Frame Io",
+        "url": "/FrameIo",
+        "routeName": "FrameIo"
+    },
+    {
+        "title": "Share AE",
+        "url": "/ShareAE",
+        "routeName": "ShareAE"
+    },
+    {
+        "title": "VFX Download",
+        "url": "/VFXDownload",
+        "routeName": "VFXDownload"
+    },
+    {
+        "title": "Flex Clip",
+        "url": "/FlexClip",
+        "routeName": "FlexClip"
+    },
+    {
+        "title": "Runway",
+        "url": "/Runway",
+        "routeName": "Runway"
+    },
+    {
+        "title": "We Video",
+        "url": "/WeVideo",
+        "routeName": "WeVideo"
+    },
+    {
+        "title": "Wave Video",
+        "url": "/WaveVideo",
+        "routeName": "WaveVideo"
+    },
+    {
+        "title": "Renderforest",
+        "url": "/Renderforest",
+        "routeName": "Renderforest"
+    },
+    {
+        "title": "Opus Clip",
+        "url": "/OpusClip",
+        "routeName": "OpusClip"
+    },
+    {
+        "title": "Pictory",
+        "url": "/Pictory",
+        "routeName": "Pictory"
+    },
+    {
+        "title": "Descript",
+        "url": "/Descript",
+        "routeName": "Descript"
+    },
+    {
+        "title": "Lumen5",
+        "url": "/Lumen5",
+        "routeName": "Lumen5"
+    },
+    {
+        "title": "Filmora",
+        "url": "/Filmora",
+        "routeName": "Filmora"
+    },
+    {
+        "title": "Flixier",
+        "url": "/Flixier",
+        "routeName": "Flixier"
+    },
+    {
+        "title": "Biteable",
+        "url": "/Biteable",
+        "routeName": "Biteable"
+    },
+    {
+        "title": "Animaker",
+        "url": "/Animaker",
+        "routeName": "Animaker"
+    },
+    {
+        "title": "Shotcut",
+        "url": "/Shotcut",
+        "routeName": "Shotcut"
+    },
+    {
+        "title": "cyber Security",
+        "url": "/cyberSecurity",
+        "routeName": "cyberSecurity"
+    },
+    {
+        "title": "Try Hack Me",
+        "url": "/TryHackMe",
+        "routeName": "TryHackMe"
+    },
+    {
+        "title": "MITREATTCK",
+        "url": "/MITREATTCK",
+        "routeName": "MITREATTCK"
+    },
+    {
+        "title": "Hack The Box",
+        "url": "/HackTheBox",
+        "routeName": "HackTheBox"
+    },
+    {
+        "title": "Port Swigger Web Security Academy",
+        "url": "/PortSwiggerWebSecurityAcademy",
+        "routeName": "PortSwiggerWebSecurityAcademy"
+    },
+    {
+        "title": "Over The Wire",
+        "url": "/OverTheWire",
+        "routeName": "OverTheWire"
+    },
+    {
+        "title": "pico CTF",
+        "url": "/picoCTF",
+        "routeName": "picoCTF"
+    },
+    {
+        "title": "CT Ftime",
+        "url": "/CTFtime",
+        "routeName": "CTFtime"
+    },
+    {
+        "title": "Hacker One",
+        "url": "/HackerOne",
+        "routeName": "HackerOne"
+    },
+    {
+        "title": "Bugcrowd",
+        "url": "/Bugcrowd",
+        "routeName": "Bugcrowd"
+    },
+    {
+        "title": "The Hacker News",
+        "url": "/TheHackerNews",
+        "routeName": "TheHackerNews"
+    },
+    {
+        "title": "CVE Mitre",
+        "url": "/CVEMitre",
+        "routeName": "CVEMitre"
+    },
+    {
+        "title": "Bleeping Computer",
+        "url": "/BleepingComputer",
+        "routeName": "BleepingComputer"
+    },
+    {
+        "title": "Cyber Defenders",
+        "url": "/CyberDefenders",
+        "routeName": "CyberDefenders"
+    },
+    {
+        "title": "Lets Defend",
+        "url": "/LetsDefend",
+        "routeName": "LetsDefend"
+    },
+    {
+        "title": "Vuln Hub",
+        "url": "/VulnHub",
+        "routeName": "VulnHub"
+    },
+    {
+        "title": "Off Sec Learning Library",
+        "url": "/OffSecLearningLibrary",
+        "routeName": "OffSecLearningLibrary"
+    },
+    {
+        "title": "Cybrary",
+        "url": "/Cybrary",
+        "routeName": "Cybrary"
+    },
+    {
+        "title": "Antisyphon Training",
+        "url": "/AntisyphonTraining",
+        "routeName": "AntisyphonTraining"
+    },
+    {
+        "title": "Dark Reading",
+        "url": "/DarkReading",
+        "routeName": "DarkReading"
+    },
+    {
+        "title": "Daniel Miessler",
+        "url": "/DanielMiessler",
+        "routeName": "DanielMiessler"
+    },
+    {
+        "title": "NISTNVD",
+        "url": "/NISTNVD",
+        "routeName": "NISTNVD"
+    },
+    {
+        "title": "Intigriti",
+        "url": "/Intigriti",
+        "routeName": "Intigriti"
+    },
+    {
+        "title": "Open Bug Bounty",
+        "url": "/OpenBugBounty",
+        "routeName": "OpenBugBounty"
+    },
+    {
+        "title": "Krebson Security",
+        "url": "/KrebsonSecurity",
+        "routeName": "KrebsonSecurity"
+    },
+    {
+        "title": "Exploit Database",
+        "url": "/ExploitDatabase",
+        "routeName": "ExploitDatabase"
+    },
+    {
+        "title": "Root Me",
+        "url": "/RootMe",
+        "routeName": "RootMe"
+    },
+    {
+        "title": "OSINT Framework",
+        "url": "/OSINTFramework",
+        "routeName": "OSINTFramework"
+    },
+    {
+        "title": "Shodan",
+        "url": "/Shodan",
+        "routeName": "Shodan"
+    },
+    {
+        "title": "Censys",
+        "url": "/Censys",
+        "routeName": "Censys"
+    },
+    {
+        "title": "Any Run",
+        "url": "/AnyRun",
+        "routeName": "AnyRun"
+    },
+    {
+        "title": "Hybrid Analysis",
+        "url": "/HybridAnalysis",
+        "routeName": "HybridAnalysis"
+    },
+    {
+        "title": "Virus Total",
+        "url": "/VirusTotal",
+        "routeName": "VirusTotal"
+    },
+    {
+        "title": "office",
+        "url": "/office",
+        "routeName": "office"
+    },
+    {
+        "title": "powerpoint",
+        "url": "/powerpoint",
+        "routeName": "powerpoint"
+    },
+    {
+        "title": "word",
+        "url": "/word",
+        "routeName": "word"
+    },
+    {
+        "title": "Word Don",
+        "url": "/WordDon",
+        "routeName": "WordDon"
+    },
+    {
+        "title": "Grammarly",
+        "url": "/Grammarly",
+        "routeName": "Grammarly"
+    },
+    {
+        "title": "Quill Bot",
+        "url": "/QuillBot",
+        "routeName": "QuillBot"
+    },
+    {
+        "title": "Language Tool",
+        "url": "/LanguageTool",
+        "routeName": "LanguageTool"
+    },
+    {
+        "title": "Hemingway Editor",
+        "url": "/HemingwayEditor",
+        "routeName": "HemingwayEditor"
+    },
+    {
+        "title": "Scribbr",
+        "url": "/Scribbr",
+        "routeName": "Scribbr"
+    },
+    {
+        "title": "Zotero",
+        "url": "/Zotero",
+        "routeName": "Zotero"
+    },
+    {
+        "title": "Mendeley",
+        "url": "/Mendeley",
+        "routeName": "Mendeley"
+    },
+    {
+        "title": "Canva Docs",
+        "url": "/CanvaDocs",
+        "routeName": "CanvaDocs"
+    },
+    {
+        "title": "Tiny Wow Word Tools",
+        "url": "/TinyWowWordTools",
+        "routeName": "TinyWowWordTools"
+    },
+    {
+        "title": "i Love PDF",
+        "url": "/iLovePDF",
+        "routeName": "iLovePDF"
+    },
+    {
+        "title": "Pro Writing Aid",
+        "url": "/ProWritingAid",
+        "routeName": "ProWritingAid"
+    },
+    {
+        "title": "Deep L Write",
+        "url": "/DeepLWrite",
+        "routeName": "DeepLWrite"
+    },
+    {
+        "title": "Writesonic",
+        "url": "/Writesonic",
+        "routeName": "Writesonic"
+    },
+    {
+        "title": "Ref Works",
+        "url": "/RefWorks",
+        "routeName": "RefWorks"
+    },
+    {
+        "title": "Copy Ai",
+        "url": "/CopyAi",
+        "routeName": "CopyAi"
+    },
+    {
+        "title": "jasper",
+        "url": "/jasper",
+        "routeName": "jasper"
+    },
+    {
+        "title": "Rytr",
+        "url": "/Rytr",
+        "routeName": "Rytr"
+    },
+    {
+        "title": "Anyword",
+        "url": "/Anyword",
+        "routeName": "Anyword"
+    },
+    {
+        "title": "End Note",
+        "url": "/EndNote",
+        "routeName": "EndNote"
+    },
+    {
+        "title": "Paperpile",
+        "url": "/Paperpile",
+        "routeName": "Paperpile"
+    },
+    {
+        "title": "Turnitin",
+        "url": "/Turnitin",
+        "routeName": "Turnitin"
+    },
+    {
+        "title": "Copyscape",
+        "url": "/Copyscape",
+        "routeName": "Copyscape"
+    },
+    {
+        "title": "Template",
+        "url": "/Template",
+        "routeName": "Template"
+    },
+    {
+        "title": "Vertex42",
+        "url": "/Vertex42",
+        "routeName": "Vertex42"
+    },
+    {
+        "title": "Powered Template",
+        "url": "/PoweredTemplate",
+        "routeName": "PoweredTemplate"
+    },
+    {
+        "title": "PDF24",
+        "url": "/PDF24",
+        "routeName": "PDF24"
+    },
+    {
+        "title": "Google Scholar",
+        "url": "/GoogleScholar",
+        "routeName": "GoogleScholar"
+    },
+    {
+        "title": "Research Gate",
+        "url": "/ResearchGate",
+        "routeName": "ResearchGate"
+    },
+    {
+        "title": "Semantic Scholar",
+        "url": "/SemanticScholar",
+        "routeName": "SemanticScholar"
+    },
+    {
+        "title": "Pub Med",
+        "url": "/PubMed",
+        "routeName": "PubMed"
+    },
+    {
+        "title": "JSTOR",
+        "url": "/JSTOR",
+        "routeName": "JSTOR"
+    },
+    {
+        "title": "Text Fixer",
+        "url": "/TextFixer",
+        "routeName": "TextFixer"
+    },
+    {
+        "title": "Word Counter",
+        "url": "/WordCounter",
+        "routeName": "WordCounter"
+    },
+    {
+        "title": "character Count Online",
+        "url": "/characterCountOnline",
+        "routeName": "characterCountOnline"
+    },
+    {
+        "title": "Diffchecker",
+        "url": "/Diffchecker",
+        "routeName": "Diffchecker"
+    },
+    {
+        "title": "Win Merge",
+        "url": "/WinMerge",
+        "routeName": "WinMerge"
+    },
+    {
+        "title": "Slidesgo",
+        "url": "/Slidesgo",
+        "routeName": "Slidesgo"
+    },
+    {
+        "title": "Power Point Don",
+        "url": "/PowerPointDon",
+        "routeName": "PowerPointDon"
+    },
+    {
+        "title": "Slides Carnival",
+        "url": "/SlidesCarnival",
+        "routeName": "SlidesCarnival"
+    },
+    {
+        "title": "Presentation GO",
+        "url": "/PresentationGO",
+        "routeName": "PresentationGO"
+    },
+    {
+        "title": "The Noun Project",
+        "url": "/TheNounProject",
+        "routeName": "TheNounProject"
+    },
+    {
+        "title": "Visme",
+        "url": "/Visme",
+        "routeName": "Visme"
+    },
+    {
+        "title": "infogram",
+        "url": "/infogram",
+        "routeName": "infogram"
+    },
+    {
+        "title": "Gamma",
+        "url": "/Gamma",
+        "routeName": "Gamma"
+    },
+    {
+        "title": "Beautiful Ai",
+        "url": "/BeautifulAi",
+        "routeName": "BeautifulAi"
+    },
+    {
+        "title": "Slide Model",
+        "url": "/SlideModel",
+        "routeName": "SlideModel"
+    },
+    {
+        "title": "FPPT",
+        "url": "/FPPT",
+        "routeName": "FPPT"
+    },
+    {
+        "title": "Showeet",
+        "url": "/Showeet",
+        "routeName": "Showeet"
+    },
+    {
+        "title": "Slide Hunter",
+        "url": "/SlideHunter",
+        "routeName": "SlideHunter"
+    },
+    {
+        "title": "Burst",
+        "url": "/Burst",
+        "routeName": "Burst"
+    },
+    {
+        "title": "Venngage",
+        "url": "/Venngage",
+        "routeName": "Venngage"
+    },
+    {
+        "title": "Piktochart",
+        "url": "/Piktochart",
+        "routeName": "Piktochart"
+    },
+    {
+        "title": "Slide Geeks",
+        "url": "/SlideGeeks",
+        "routeName": "SlideGeeks"
+    },
+    {
+        "title": "Template Monster",
+        "url": "/TemplateMonster",
+        "routeName": "TemplateMonster"
+    },
+    {
+        "title": "Microsoft Office Templates",
+        "url": "/MicrosoftOfficeTemplates",
+        "routeName": "MicrosoftOfficeTemplates"
+    },
+    {
+        "title": "Stock Snap",
+        "url": "/StockSnap",
+        "routeName": "StockSnap"
+    },
+    {
+        "title": "WPS Office Templates",
+        "url": "/WPSOfficeTemplates",
+        "routeName": "WPSOfficeTemplates"
+    },
+    {
+        "title": "Slides Mania",
+        "url": "/SlidesMania",
+        "routeName": "SlidesMania"
+    },
+    {
+        "title": "docs Google",
+        "url": "/docsGoogle",
+        "routeName": "docsGoogle"
+    },
+    {
+        "title": "excel",
+        "url": "/excel",
+        "routeName": "excel"
+    },
+    {
+        "title": "Excel Don",
+        "url": "/ExcelDon",
+        "routeName": "ExcelDon"
+    },
+    {
+        "title": "Microsoft Excel Training",
+        "url": "/MicrosoftExcelTraining",
+        "routeName": "MicrosoftExcelTraining"
+    },
+    {
+        "title": "Excel Easy",
+        "url": "/ExcelEasy",
+        "routeName": "ExcelEasy"
+    },
+    {
+        "title": "Excel Jet",
+        "url": "/ExcelJet",
+        "routeName": "ExcelJet"
+    },
+    {
+        "title": "Spreadsheeto",
+        "url": "/Spreadsheeto",
+        "routeName": "Spreadsheeto"
+    },
+    {
+        "title": "My Online Training Hub",
+        "url": "/MyOnlineTrainingHub",
+        "routeName": "MyOnlineTrainingHub"
+    },
+    {
+        "title": "Spreadsheet123",
+        "url": "/Spreadsheet123",
+        "routeName": "Spreadsheet123"
+    },
+    {
+        "title": "Template Net",
+        "url": "/TemplateNet",
+        "routeName": "TemplateNet"
+    },
+    {
+        "title": "Cloud Convert",
+        "url": "/CloudConvert",
+        "routeName": "CloudConvert"
+    },
+    {
+        "title": "Datawrapper",
+        "url": "/Datawrapper",
+        "routeName": "Datawrapper"
+    },
+    {
+        "title": "Flourish",
+        "url": "/Flourish",
+        "routeName": "Flourish"
+    },
+    {
+        "title": "Convertio",
+        "url": "/Convertio",
+        "routeName": "Convertio"
+    },
+    {
+        "title": "Open Refine",
+        "url": "/OpenRefine",
+        "routeName": "OpenRefine"
+    },
+    {
+        "title": "Airtable",
+        "url": "/Airtable",
+        "routeName": "Airtable"
+    },
+    {
+        "title": "Zoho Sheet",
+        "url": "/ZohoSheet",
+        "routeName": "ZohoSheet"
+    },
+    {
+        "title": "ONLYOFFICE",
+        "url": "/ONLYOFFICE",
+        "routeName": "ONLYOFFICE"
+    },
+    {
+        "title": "Excel Formula Bot",
+        "url": "/ExcelFormulaBot",
+        "routeName": "ExcelFormulaBot"
+    },
+    {
+        "title": "formulas Hq",
+        "url": "/formulasHq",
+        "routeName": "formulasHq"
+    },
+    {
+        "title": "Ablebits Excel Blog",
+        "url": "/AblebitsExcelBlog",
+        "routeName": "AblebitsExcelBlog"
+    },
+    {
+        "title": "GPT Excel",
+        "url": "/GPTExcel",
+        "routeName": "GPTExcel"
+    },
+    {
+        "title": "Ajelix AI",
+        "url": "/AjelixAI",
+        "routeName": "AjelixAI"
+    },
+    {
+        "title": "sheet Ai",
+        "url": "/sheetAi",
+        "routeName": "sheetAi"
+    },
+    {
+        "title": "Indzara",
+        "url": "/Indzara",
+        "routeName": "Indzara"
+    },
+    {
+        "title": "Excel Dashboard School",
+        "url": "/ExcelDashboardSchool",
+        "routeName": "ExcelDashboardSchool"
+    },
+    {
+        "title": "Someka",
+        "url": "/Someka",
+        "routeName": "Someka"
+    },
+    {
+        "title": "Eloquens",
+        "url": "/Eloquens",
+        "routeName": "Eloquens"
+    },
+    {
+        "title": "Qlik Sense",
+        "url": "/QlikSense",
+        "routeName": "QlikSense"
+    },
+    {
+        "title": "Plotly",
+        "url": "/Plotly",
+        "routeName": "Plotly"
+    },
+    {
+        "title": "Apache Superset",
+        "url": "/ApacheSuperset",
+        "routeName": "ApacheSuperset"
+    },
+    {
+        "title": "Baserow",
+        "url": "/Baserow",
+        "routeName": "Baserow"
+    },
+    {
+        "title": "Design",
+        "url": "/Design",
+        "routeName": "Design"
+    },
+    {
+        "title": "AI ROOM",
+        "url": "/AIROOM",
+        "routeName": "AIROOM"
+    },
+    {
+        "title": "Chat AI",
+        "url": "/ChatAI",
+        "routeName": "ChatAI"
+    },
+    {
+        "title": "Meta AI",
+        "url": "/MetaAI",
+        "routeName": "MetaAI"
+    },
+    {
+        "title": "Automation",
+        "url": "/Automation",
+        "routeName": "Automation"
+    },
+    {
+        "title": "Zapier",
+        "url": "/Zapier",
+        "routeName": "Zapier"
+    },
+    {
+        "title": "Make",
+        "url": "/Make",
+        "routeName": "Make"
+    },
+    {
+        "title": "n Ops",
+        "url": "/nOps",
+        "routeName": "nOps"
+    },
+    {
+        "title": "n8n",
+        "url": "/n8n",
+        "routeName": "n8n"
+    },
+    {
+        "title": "Pipedream",
+        "url": "/Pipedream",
+        "routeName": "Pipedream"
+    },
+    {
+        "title": "IFTTT",
+        "url": "/IFTTT",
+        "routeName": "IFTTT"
+    },
+    {
+        "title": "Relay App",
+        "url": "/RelayApp",
+        "routeName": "RelayApp"
+    },
+    {
+        "title": "Albato",
+        "url": "/Albato",
+        "routeName": "Albato"
+    },
+    {
+        "title": "Integrately",
+        "url": "/Integrately",
+        "routeName": "Integrately"
+    },
+    {
+        "title": "Agent GPT",
+        "url": "/AgentGPT",
+        "routeName": "AgentGPT"
+    },
+    {
+        "title": "Auto GPT",
+        "url": "/AutoGPT",
+        "routeName": "AutoGPT"
+    },
+    {
+        "title": "Flowise",
+        "url": "/Flowise",
+        "routeName": "Flowise"
+    },
+    {
+        "title": "Dify",
+        "url": "/Dify",
+        "routeName": "Dify"
+    },
+    {
+        "title": "Active Campaign",
+        "url": "/ActiveCampaign",
+        "routeName": "ActiveCampaign"
+    },
+    {
+        "title": "Mailchimp",
+        "url": "/Mailchimp",
+        "routeName": "Mailchimp"
+    },
+    {
+        "title": "Brevo",
+        "url": "/Brevo",
+        "routeName": "Brevo"
+    },
+    {
+        "title": "Hub Spot",
+        "url": "/HubSpot",
+        "routeName": "HubSpot"
+    },
+    {
+        "title": "Buffer",
+        "url": "/Buffer",
+        "routeName": "Buffer"
+    },
+    {
+        "title": "Publer",
+        "url": "/Publer",
+        "routeName": "Publer"
+    },
+    {
+        "title": "Metricool",
+        "url": "/Metricool",
+        "routeName": "Metricool"
+    },
+    {
+        "title": "Ui Path",
+        "url": "/UiPath",
+        "routeName": "UiPath"
+    },
+    {
+        "title": "Automation Anywhere",
+        "url": "/AutomationAnywhere",
+        "routeName": "AutomationAnywhere"
+    },
+    {
+        "title": "Robocorp",
+        "url": "/Robocorp",
+        "routeName": "Robocorp"
+    },
+    {
+        "title": "Lindy AI",
+        "url": "/LindyAI",
+        "routeName": "LindyAI"
+    },
+    {
+        "title": "Gumloop",
+        "url": "/Gumloop",
+        "routeName": "Gumloop"
+    },
+    {
+        "title": "Bardeen",
+        "url": "/Bardeen",
+        "routeName": "Bardeen"
+    },
+    {
+        "title": "Airtop",
+        "url": "/Airtop",
+        "routeName": "Airtop"
+    },
+    {
+        "title": "Taskade AI Agents",
+        "url": "/TaskadeAIAgents",
+        "routeName": "TaskadeAIAgents"
+    },
+    {
+        "title": "Workato",
+        "url": "/Workato",
+        "routeName": "Workato"
+    },
+    {
+        "title": "Tray Ai",
+        "url": "/TrayAi",
+        "routeName": "TrayAi"
+    },
+    {
+        "title": "Relevance AI",
+        "url": "/RelevanceAI",
+        "routeName": "RelevanceAI"
+    },
+    {
+        "title": "Super AGI",
+        "url": "/SuperAGI",
+        "routeName": "SuperAGI"
+    },
+    {
+        "title": "Lang Chain",
+        "url": "/LangChain",
+        "routeName": "LangChain"
+    },
+    {
+        "title": "Temporal",
+        "url": "/Temporal",
+        "routeName": "Temporal"
+    },
+    {
+        "title": "Kestra",
+        "url": "/Kestra",
+        "routeName": "Kestra"
+    },
+    {
+        "title": "Glide",
+        "url": "/Glide",
+        "routeName": "Glide"
+    },
+    {
+        "title": "Chat GPT",
+        "url": "/ChatGPT",
+        "routeName": "ChatGPT"
+    },
+    {
+        "title": "Gemini",
+        "url": "/Gemini",
+        "routeName": "Gemini"
+    },
+    {
+        "title": "Claude",
+        "url": "/Claude",
+        "routeName": "Claude"
+    },
+    {
+        "title": "Copilot",
+        "url": "/Copilot",
+        "routeName": "Copilot"
+    },
+    {
+        "title": "deepseek",
+        "url": "/deepseek",
+        "routeName": "deepseek"
+    },
+    {
+        "title": "munas",
+        "url": "/munas",
+        "routeName": "munas"
+    },
+    {
+        "title": "Perplexity",
+        "url": "/Perplexity",
+        "routeName": "Perplexity"
+    },
+    {
+        "title": "You Com",
+        "url": "/YouCom",
+        "routeName": "YouCom"
+    },
+    {
+        "title": "Phind",
+        "url": "/Phind",
+        "routeName": "Phind"
+    },
+    {
+        "title": "Poe",
+        "url": "/Poe",
+        "routeName": "Poe"
+    },
+    {
+        "title": "Character AI",
+        "url": "/CharacterAI",
+        "routeName": "CharacterAI"
+    },
+    {
+        "title": "Replika",
+        "url": "/Replika",
+        "routeName": "Replika"
+    },
+    {
+        "title": "Grok",
+        "url": "/Grok",
+        "routeName": "Grok"
+    },
+    {
+        "title": "Pi AI",
+        "url": "/PiAI",
+        "routeName": "PiAI"
+    },
+    {
+        "title": "Mistral",
+        "url": "/Mistral",
+        "routeName": "Mistral"
+    },
+    {
+        "title": "Qwen",
+        "url": "/Qwen",
+        "routeName": "Qwen"
+    },
+    {
+        "title": "Kimi",
+        "url": "/Kimi",
+        "routeName": "Kimi"
+    },
+    {
+        "title": "HIX",
+        "url": "/HIX",
+        "routeName": "HIX"
+    },
+    {
+        "title": "Monica",
+        "url": "/Monica",
+        "routeName": "Monica"
+    },
+    {
+        "title": "Blackbox",
+        "url": "/Blackbox",
+        "routeName": "Blackbox"
+    },
+    {
+        "title": "Ask AI",
+        "url": "/AskAI",
+        "routeName": "AskAI"
+    },
+    {
+        "title": "Nova",
+        "url": "/Nova",
+        "routeName": "Nova"
+    },
+    {
+        "title": "Genie AI",
+        "url": "/GenieAI",
+        "routeName": "GenieAI"
+    },
+    {
+        "title": "Chat On",
+        "url": "/ChatOn",
+        "routeName": "ChatOn"
+    },
+    {
+        "title": "Elicit",
+        "url": "/Elicit",
+        "routeName": "Elicit"
+    },
+    {
+        "title": "Consensus",
+        "url": "/Consensus",
+        "routeName": "Consensus"
+    },
+    {
+        "title": "Sci Space",
+        "url": "/SciSpace",
+        "routeName": "SciSpace"
+    },
+    {
+        "title": "Research Rabbit",
+        "url": "/ResearchRabbit",
+        "routeName": "ResearchRabbit"
+    },
+    {
+        "title": "Notion AI",
+        "url": "/NotionAI",
+        "routeName": "NotionAI"
+    },
+    {
+        "title": "Click Up",
+        "url": "/ClickUp",
+        "routeName": "ClickUp"
+    },
+    {
+        "title": "Photos Andvideos",
+        "url": "/PhotosAndvideos",
+        "routeName": "PhotosAndvideos"
+    },
+    {
+        "title": "Midjourney",
+        "url": "/Midjourney",
+        "routeName": "Midjourney"
+    },
+    {
+        "title": "Adobe Firefly",
+        "url": "/AdobeFirefly",
+        "routeName": "AdobeFirefly"
+    },
+    {
+        "title": "Stable Diffusion",
+        "url": "/StableDiffusion",
+        "routeName": "StableDiffusion"
+    },
+    {
+        "title": "Ideogram",
+        "url": "/Ideogram",
+        "routeName": "Ideogram"
+    },
+    {
+        "title": "Recraft",
+        "url": "/Recraft",
+        "routeName": "Recraft"
+    },
+    {
+        "title": "Playground",
+        "url": "/Playground",
+        "routeName": "Playground"
+    },
+    {
+        "title": "Night Cafe",
+        "url": "/NightCafe",
+        "routeName": "NightCafe"
+    },
+    {
+        "title": "Mage Space",
+        "url": "/MageSpace",
+        "routeName": "MageSpace"
+    },
+    {
+        "title": "Kling AI",
+        "url": "/KlingAI",
+        "routeName": "KlingAI"
+    },
+    {
+        "title": "Hailuo AI",
+        "url": "/HailuoAI",
+        "routeName": "HailuoAI"
+    },
+    {
+        "title": "Pika",
+        "url": "/Pika",
+        "routeName": "Pika"
+    },
+    {
+        "title": "Luma Dream Machine",
+        "url": "/LumaDreamMachine",
+        "routeName": "LumaDreamMachine"
+    },
+    {
+        "title": "Pix Verse AI",
+        "url": "/PixVerseAI",
+        "routeName": "PixVerseAI"
+    },
+    {
+        "title": "Hey Gen",
+        "url": "/HeyGen",
+        "routeName": "HeyGen"
+    },
+    {
+        "title": "Synthesia",
+        "url": "/Synthesia",
+        "routeName": "Synthesia"
+    },
+    {
+        "title": "nanobanana",
+        "url": "/nanobanana",
+        "routeName": "nanobanana"
+    },
+    {
+        "title": "Tensor Art",
+        "url": "/TensorArt",
+        "routeName": "TensorArt"
+    },
+    {
+        "title": "Civitai",
+        "url": "/Civitai",
+        "routeName": "Civitai"
+    },
+    {
+        "title": "Craiyon",
+        "url": "/Craiyon",
+        "routeName": "Craiyon"
+    },
+    {
+        "title": "Starry AI",
+        "url": "/StarryAI",
+        "routeName": "StarryAI"
+    },
+    {
+        "title": "Artbreeder",
+        "url": "/Artbreeder",
+        "routeName": "Artbreeder"
+    },
+    {
+        "title": "Fotor AI",
+        "url": "/FotorAI",
+        "routeName": "FotorAI"
+    },
+    {
+        "title": "Deep AI",
+        "url": "/DeepAI",
+        "routeName": "DeepAI"
+    },
+    {
+        "title": "Imagine Art",
+        "url": "/ImagineArt",
+        "routeName": "ImagineArt"
+    },
+    {
+        "title": "Getimg Ai",
+        "url": "/GetimgAi",
+        "routeName": "GetimgAi"
+    },
+    {
+        "title": "Sea Art AI",
+        "url": "/SeaArtAI",
+        "routeName": "SeaArtAI"
+    },
+    {
+        "title": "Open Art",
+        "url": "/OpenArt",
+        "routeName": "OpenArt"
+    },
+    {
+        "title": "Dzine AI",
+        "url": "/DzineAI",
+        "routeName": "DzineAI"
+    },
+    {
+        "title": "Haiper AI",
+        "url": "/HaiperAI",
+        "routeName": "HaiperAI"
+    },
+    {
+        "title": "Vidu AI",
+        "url": "/ViduAI",
+        "routeName": "ViduAI"
+    },
+    {
+        "title": "Higgsfield AI",
+        "url": "/HiggsfieldAI",
+        "routeName": "HiggsfieldAI"
+    },
+    {
+        "title": "Behance",
+        "url": "/Behance",
+        "routeName": "Behance"
+    },
+    {
+        "title": "Dribbble",
+        "url": "/Dribbble",
+        "routeName": "Dribbble"
+    },
+    {
+        "title": "Pinterest",
+        "url": "/Pinterest",
+        "routeName": "Pinterest"
+    },
+    {
+        "title": "Awwwards",
+        "url": "/Awwwards",
+        "routeName": "Awwwards"
+    },
+    {
+        "title": "Art Station",
+        "url": "/ArtStation",
+        "routeName": "ArtStation"
+    },
+    {
+        "title": "Envato",
+        "url": "/Envato",
+        "routeName": "Envato"
+    },
+    {
+        "title": "Canva",
+        "url": "/Canva",
+        "routeName": "Canva"
+    },
+    {
+        "title": "Designspiration",
+        "url": "/Designspiration",
+        "routeName": "Designspiration"
+    },
+    {
+        "title": "Lottiefiles",
+        "url": "/Lottiefiles",
+        "routeName": "Lottiefiles"
+    },
+    {
+        "title": "Coolors",
+        "url": "/Coolors",
+        "routeName": "Coolors"
+    },
+    {
+        "title": "Unsplash",
+        "url": "/Unsplash",
+        "routeName": "Unsplash"
+    },
+    {
+        "title": "Icons8",
+        "url": "/Icons8",
+        "routeName": "Icons8"
+    },
+    {
+        "title": "Magnific",
+        "url": "/Magnific",
+        "routeName": "Magnific"
+    },
+    {
+        "title": "Mobbin",
+        "url": "/Mobbin",
+        "routeName": "Mobbin"
+    },
+    {
+        "title": "Flaticon",
+        "url": "/Flaticon",
+        "routeName": "Flaticon"
+    },
+    {
+        "title": "un Draw",
+        "url": "/unDraw",
+        "routeName": "unDraw"
+    },
+    {
+        "title": "Adobe Color",
+        "url": "/AdobeColor",
+        "routeName": "AdobeColor"
+    },
+    {
+        "title": "Happy Hues",
+        "url": "/HappyHues",
+        "routeName": "HappyHues"
+    },
+    {
+        "title": "LS Graphics",
+        "url": "/LSGraphics",
+        "routeName": "LSGraphics"
+    },
+    {
+        "title": "wordmark",
+        "url": "/wordmark",
+        "routeName": "wordmark"
+    },
+    {
+        "title": "Logo Lounge",
+        "url": "/LogoLounge",
+        "routeName": "LogoLounge"
+    },
+    {
+        "title": "Khroma",
+        "url": "/Khroma",
+        "routeName": "Khroma"
+    },
+    {
+        "title": "Phosphor Icons",
+        "url": "/PhosphorIcons",
+        "routeName": "PhosphorIcons"
+    },
+    {
+        "title": "Logopond",
+        "url": "/Logopond",
+        "routeName": "Logopond"
+    },
+    {
+        "title": "Brand New",
+        "url": "/BrandNew",
+        "routeName": "BrandNew"
+    },
+    {
+        "title": "D99designs",
+        "url": "/D99designs",
+        "routeName": "D99designs"
+    },
+    {
+        "title": "Working Not Working",
+        "url": "/WorkingNotWorking",
+        "routeName": "WorkingNotWorking"
+    },
+    {
+        "title": "Vecteezy",
+        "url": "/Vecteezy",
+        "routeName": "Vecteezy"
+    },
+    {
+        "title": "Adobe Stock",
+        "url": "/AdobeStock",
+        "routeName": "AdobeStock"
+    },
+    {
+        "title": "Vista Create",
+        "url": "/VistaCreate",
+        "routeName": "VistaCreate"
+    },
+    {
+        "title": "Graphic Burger",
+        "url": "/GraphicBurger",
+        "routeName": "GraphicBurger"
+    },
+    {
+        "title": "Pexel",
+        "url": "/Pexel",
+        "routeName": "Pexel"
+    },
+    {
+        "title": "Google Fonts",
+        "url": "/GoogleFonts",
+        "routeName": "GoogleFonts"
+    },
+    {
+        "title": "Mockup World",
+        "url": "/MockupWorld",
+        "routeName": "MockupWorld"
+    },
+    {
+        "title": "Tiny PNG",
+        "url": "/TinyPNG",
+        "routeName": "TinyPNG"
+    },
+    {
+        "title": "Blush Design",
+        "url": "/BlushDesign",
+        "routeName": "BlushDesign"
+    },
+    {
+        "title": "Contact Us",
+        "url": "/contactUs",
+        "routeName": "contactUs"
+    }
+]
