@@ -1,45 +1,37 @@
-FROM php:8.2-fpm
+FROM php:8.2-cli
 
-# تثبيت الاعتماديات والنظام
+# تثبيت الإضافات والمكتبات اللازمة لـ Laravel و SQLite
 RUN apt-get update && apt-get install -y \
     git \
     curl \
-    libpng-dev \
-    libonig-dev \
-    libxml2-dev \
+    libsqlite3-dev \
     zip \
     unzip \
-    nginx
+    && docker-php-ext-install pdo pdo_sqlite
 
-# تنظيف الكاش
-RUN apt-get clean && rm -rf /var/lib/apt/lists/*
-
-# تثبيت إضافات PHP اللّازمة لارافيل
-RUN docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd
-
-# تثبيت Composer
+# نسخ الـ Composer من الحاوية الرسمية
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
-# تحديد مجلد العمل
-WORKDIR /var/www
+WORKDIR /app
 
 # نسخ ملفات المشروع
-COPY . /var/www
+COPY . .
 
-# تثبيت اعتمادات لارافيل بدون بيئة التطوير
+# تثبيت مكتبات Composer للـ Production وتوليد الأوتولودر النظيف
 RUN composer install --no-dev --optimize-autoloader
 
-# إنشاء ملف قاعدة بيانات SQLite وتحديد الصلاحيات
-RUN mkdir -p /var/www/database && \
-    touch /var/www/database/database.sqlite && \
-    chown -R www-data:www-data /var/www && \
-    chmod -R 775 /var/www/storage /var/www/bootstrap/cache /var/www/database
+# تهيئة مجلد قاعدة البيانات ومنح الصلاحيات المطلقة أثناء البناء
+RUN mkdir -p /app/database && \
+    touch /app/database/database.sqlite && \
+    chmod -R 777 /app/database storage bootstrap/cache
 
-# نسخ إعدادات Nginx (سنقوم بإنشائها في الخطوة التالية)
-COPY nginx.conf /etc/nginx/sites-available/default
+# إعداد متغيرات البيئة الأساسية إجبارياً داخل الحاوية لمنع الـ 500
+ENV APP_ENV=production
+ENV APP_DEBUG=true
+ENV DB_CONNECTION=sqlite
+ENV DB_DATABASE=/app/database/database.sqlite
 
-# البورت الافتراضي لـ Render
-EXPOSE 80
+EXPOSE 10000
 
-# أمر التشغيل الذي يربط PHP بـ Nginx مباشرة لإنهاء الطلبات ومنع الـ Timeout
-CMD php artisan config:clear && php artisan cache:clear && php artisan view:cache && php artisan migrate --force && service nginx start && php-fpm
+# أمر الإقلاع القياسي السريع والمستقر عبر سيرفر PHP المدمج الموجه للـ index مباشرة
+CMD php artisan migrate --force && php -S 0.0.0.0:10000 public/index.php
