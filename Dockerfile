@@ -32,7 +32,7 @@ RUN composer install --no-dev --optimize-autoloader
 # إنشاء ملف قاعدة بيانات SQLite وتحديد الصلاحيات
 RUN mkdir -p /var/www/database && \
     touch /var/www/database/database.sqlite && \
-    chown -1 -R www-data:www-data /var/www && \
+    chown -R www-data:www-data /var/www && \
     chmod -R 775 /var/www/storage /var/www/bootstrap/cache /var/www/database
 
 # نسخ إعدادات Nginx (سنقوم بإنشائها في الخطوة التالية)
