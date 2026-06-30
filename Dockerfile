@@ -1,37 +1,40 @@
-FROM php:8.2-cli
+FROM php:8.2-fpm
 
-# تثبيت الإضافات والمكتبات اللازمة لـ Laravel و SQLite
+# تثبيت Nginx وباقي الإضافات اللازمة لـ Laravel و SQLite
 RUN apt-get update && apt-get install -y \
     git \
     curl \
-    libsqlite3-dev \
+    libpng-dev \
+    libonig-dev \
+    libxml2-dev \
     zip \
     unzip \
-    && docker-php-ext-install pdo pdo_sqlite
+    nginx \
+    libsqlite3-dev \
+    && docker-php-ext-install pdo pdo_sqlite mbstring exif pcntl bcmath gd
 
 # نسخ الـ Composer من الحاوية الرسمية
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
-WORKDIR /app
+# تحديد مجلد العمل القياسي لسيرفر الويب
+WORKDIR /var/www
 
 # نسخ ملفات المشروع
-COPY . .
+COPY . /var/www
 
-# تثبيت مكتبات Composer للـ Production وتوليد الأوتولودر النظيف
+# تثبيت مكتبات Composer للـ Production
 RUN composer install --no-dev --optimize-autoloader
 
-# تهيئة مجلد قاعدة البيانات ومنح الصلاحيات المطلقة أثناء البناء
-RUN mkdir -p /app/database && \
-    touch /app/database/database.sqlite && \
-    chmod -R 777 /app/database storage bootstrap/cache
+# تهيئة مجلد قاعدة البيانات ومنح الصلاحيات الصحيحة لمستخدم السيرفر (www-data)
+RUN mkdir -p /var/www/database && \
+    touch /var/www/database/database.sqlite && \
+    chown -R www-data:www-data /var/www && \
+    chmod -R 775 /var/www/storage /var/www/bootstrap/cache /var/www/database
 
-# إعداد متغيرات البيئة الأساسية إجبارياً داخل الحاوية لمنع الـ 500
-ENV APP_ENV=production
-ENV APP_DEBUG=true
-ENV DB_CONNECTION=sqlite
-ENV DB_DATABASE=/app/database/database.sqlite
+# نسخ إعدادات Nginx الافتراضية للتشغيل
+COPY nginx.conf /etc/nginx/sites-available/default
 
-EXPOSE 10000
+EXPOSE 80
 
-# أمر الإقلاع القياسي السريع والمستقر عبر سيرفر PHP المدمج الموجه للـ index مباشرة
-CMD php artisan migrate --force && php -S 0.0.0.0:10000 public/index.php
+# أمر الإقلاع لتنظيف الكاش، عمل الـ Migrations، وتشغيل السيرفر
+CMD php artisan config:clear && php artisan cache:clear && php artisan migrate --force && service nginx start && php-fpm
