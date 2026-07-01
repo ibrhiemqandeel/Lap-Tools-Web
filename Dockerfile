@@ -22,6 +22,13 @@ WORKDIR /var/www
 # نسخ ملفات المشروع
 COPY . /var/www
 
+# إعداد متغيرات البيئة الأساسية - إجبار الـ Assets على الـ HTTPS والـ Debug مفعل
+ENV APP_ENV=production
+ENV APP_DEBUG=true
+ENV DB_CONNECTION=sqlite
+ENV DB_DATABASE=/var/www/database/database.sqlite
+ENV ASSET_URL=https://lap-tools-web.onrender.com
+
 # تثبيت مكتبات Composer للـ Production
 RUN composer install --no-dev --optimize-autoloader
 
@@ -31,8 +38,9 @@ RUN mkdir -p /var/www/database && \
     chown -R www-data:www-data /var/www && \
     chmod -R 777 /var/www/storage /var/www/bootstrap/cache /var/www/database
 
-# نسخ إعدادات Nginx الافتراضية للتشغيل
+# نسخ إعدادات Nginx الافتراضية للتشغيل إلى المسارين لضمان التفعيل الفوري
 COPY nginx.conf /etc/nginx/sites-available/default
+COPY nginx.conf /etc/nginx/sites-enabled/default
 
 EXPOSE 80
 
