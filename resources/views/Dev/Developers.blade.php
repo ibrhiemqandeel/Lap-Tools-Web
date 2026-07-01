@@ -1,4 +1,4 @@
-<x-pagesContent pageTitle="Developers" contentOne="Front End"
+<x-pages-content pageTitle="Developers" contentOne="Front End"
     contentFourTwo="Back End "
     contentThree="Mobile App "
     contentFour="Game "
@@ -23,5 +23,4 @@
     routeNameSeven="UIDesign"
     routeNameEight="cyberSecurity"
     >
-
-</x-pagesContent>
+</x-pages-content>

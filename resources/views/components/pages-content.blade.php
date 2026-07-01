@@ -74,33 +74,22 @@
                 </div>
                 <script src="/javaScript/main.js"></script>
                 <style>
-                    /*Titel back End ############*/
-
+                    /* Titel Developers ############# */
                     div h1.DevelopersPageH1 {
                         display: flex;
                         justify-content: center;
-                        width: 40%;
                         align-items: center;
-                        margin: 20px auto 10px;
-                    }
-
-                    /*Titel Developers ############*/
-
-                    div h1.DevelopersPageH1 {
-                        display: flex;
-                        justify-content: center;
                         width: 40%;
-                        align-items: center;
                         margin: 20px auto 30px;
                         color: #f00;
                         font-size: 3.5rem;
                         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
                         position: relative;
                         top: 50px;
+                        text-align: center;
                     }
 
                     /* Content */
-
                     div.DevelopersPageContent {
                         display: grid;
                         /* ينشئ أعمدة مرنة تتكيف مع حجم الشاشة */
@@ -110,8 +99,6 @@
                         padding: 20px;
                         width: 80%;
                         margin: 50px auto;
-
-
                     }
 
                     div div.ContentOne,
@@ -130,7 +117,6 @@
                         background-size: contain;
                         background-repeat: no-repeat;
                         background-position: center;
-                        border-radius: 20px;
                         border-radius: 20px;
                         transition: transform 0.3s ease;
                     }
@@ -151,12 +137,13 @@
                     h3 {
                         display: flex;
                         justify-content: center;
-                        width: 100%;
                         align-items: center;
-                        margin: 0px auto 0px;
+                        width: 100%;
+                        margin: 0;
                         color: #f00;
                         font-size: 2rem;
                         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                        text-align: center;
                     }
 
                     h3:hover {
@@ -166,6 +153,57 @@
 
                     a {
                         text-decoration: none;
+                    }
+
+                    /* ==================== التجاوب مع الشاشات المتوسطة (تابلت) ==================== */
+                    @media (max-width: 992px) {
+                        div h1.DevelopersPageH1 {
+                            width: 60%;
+                            font-size: 3rem;
+                            top: 30px;
+                        }
+
+                        div.DevelopersPageContent {
+                            width: 90%;
+                            gap: 25px;
+                        }
+                    }
+
+                    /* ==================== التجاوب مع الشاشات الصغيرة (موبايل) ==================== */
+                    @media (max-width: 576px) {
+                        div h1.DevelopersPageH1 {
+                            width: 90%;
+                            font-size: 2rem;
+                            top: 15px;
+                            margin: 10px auto 20px;
+                        }
+
+                        div.DevelopersPageContent {
+                            grid-template-columns: 1fr;
+                            width: 95%;
+                            gap: 20px;
+                            padding: 10px;
+                            margin: 20px auto;
+                        }
+
+                        div div.ContentOne,
+                        div div.ContentFourTwo,
+                        div div.ContentThree,
+                        div div.ContentFour,
+                        div div.ContentFive,
+                        div div.ContentSix,
+                        div div.ContentSeven,
+                        div div.ContentEight {
+                            height: 280px;
+                        }
+
+                        h3 {
+                            font-size: 1.4rem;
+                        }
+
+                        h3:hover {
+                            font-size: 1.6rem;
+                        }
                     }
                 </style>
                 <script src="/javaScript/main.js"></script>
