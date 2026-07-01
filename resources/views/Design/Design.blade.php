@@ -1,4 +1,4 @@
-<x-Pages pageTitle="Design" pageTitleAll="Design " title="Design "
+<x-pages pageTitle="Design" pageTitleAll="Design " title="Design "
     imgesUrlOne="{{ asset('/images/Design/Behance.jpg') }}"
     imgesUrlTwo="{{ asset('/images/Design/dribbble-logo.png') }}"
     imgesUrlThree="{{ asset('/images/Design/pinterest.gif') }}"
@@ -40,4 +40,4 @@
     routeNameThirteen="Magnific" routeNameFourteen="Mobbin" routeNameFifteen="Flaticon" routeNameSixteen="unDraw" routeNameSeventeen="AdobeColor" routeNameEighteen="HappyHues" routeNameNineteen="LSGraphics" routeNametwenty="wordmark" routeNametwentyone="LogoLounge" routeNametwentytwo="Khroma" routeNametwentythree="PhosphorIcons"
     routeNametwentyfour="Logopond" routeNametwentyfive="BrandNew" routeNametwentysix="D99designs" routeNametwentyseven="WorkingNotWorking" routeNametwentyeight="Vecteezy" routeNametwentynine="AdobeStock" routeNamethirty="VistaCreate" routeNamethirtyone="GraphicBurger" routeNamethirtytwo="Pexel" routeNamethirtythree="GoogleFonts"
     routeNamethirtyfour="MockupWorld" routeNamethirtyfive="RemoveBg" routeNamethirtysix="TinyPNG" routeNamethirtyseven="BlushDesign">
-</x-Pages>
+</x-pages>

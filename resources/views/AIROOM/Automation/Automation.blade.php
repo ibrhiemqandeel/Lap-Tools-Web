@@ -1,4 +1,4 @@
-<x-Pages pageTitle="Automation"  title="Automation"
+<x-pages pageTitle="Automation"  title="Automation"
     imgesUrlOne="{{ asset('/images/AIROOM/Automation/Zapier.png') }}"
     imgesUrlTwo="{{ asset('/images/AIROOM/Automation/nOps.png') }}"
     imgesUrlThree="{{ asset('/images/AIROOM/Automation/Make.png') }}"
@@ -40,4 +40,4 @@
     routeNameThirteen="Flowise" routeNameFourteen="Dify" routeNameFifteen="ActiveCampaign" routeNameSixteen="Mailchimp" routeNameSeventeen="Brevo" routeNameEighteen="HubSpot" routeNameNineteen="Buffer" routeNametwenty="Publer" routeNametwentyone="Metricool" routeNametwentytwo="UiPath" routeNametwentythree="AutomationAnywhere"
     routeNametwentyfour="Robocorp" routeNametwentyfive="LindyAI" routeNametwentysix="Gumloop" routeNametwentyseven="Bardeen" routeNametwentyeight="Airtop" routeNametwentynine="TaskadeAIAgents" routeNamethirty="Workato" routeNamethirtyone="TrayAi" routeNamethirtytwo="RelevanceAI" routeNamethirtythree="SuperAGI"
     routeNamethirtyfour="LangChain" routeNamethirtyfive="Temporal" routeNamethirtysix="Kestra" routeNamethirtyseven="Glide">
-</x-Pages>
+</x-pages>

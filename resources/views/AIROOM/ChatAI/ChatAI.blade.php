@@ -1,4 +1,4 @@
-<x-Pages pageTitle="ChatAI"  title="ChatAI"
+<x-pages pageTitle="ChatAI"  title="ChatAI"
     imgesUrlOne="{{ asset('/images/AIROOM/ChatAI/ChatGPT.png') }}"
     imgesUrlTwo="{{ asset('/images/AIROOM/ChatAI/MetaAI.jpg') }}"
     imgesUrlThree="{{ asset('/images/AIROOM/ChatAI/Gemini.jpg') }}"
@@ -40,4 +40,4 @@
     routeNameThirteen="CharacterAI" routeNameFourteen="Replika" routeNameFifteen="jasper" routeNameSixteen="Writesonic" routeNameSeventeen="Grok" routeNameEighteen="PiAI" routeNameNineteen="Mistral" routeNametwenty="Qwen" routeNametwentyone="Kimi" routeNametwentytwo="HIX" routeNametwentythree="Monica"
     routeNametwentyfour="Blackbox" routeNametwentyfive="Nova" routeNametwentysix="AskAI" routeNametwentyseven="GenieAI" routeNametwentyeight="ChatOn" routeNametwentynine="Elicit" routeNamethirty="Consensus" routeNamethirtyone="SciSpace" routeNamethirtytwo="SemanticScholar" routeNamethirtythree="ResearchRabbit"
     routeNamethirtyfour="Rytr" routeNamethirtyfive="Anyword" routeNamethirtysix="NotionAI" routeNamethirtyseven="ClickUp">
-</x-Pages>
+</x-pages>

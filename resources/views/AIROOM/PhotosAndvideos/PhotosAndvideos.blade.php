@@ -1,4 +1,4 @@
-<x-Pages pageTitle="Photos And Videos"  title="Photos And Videos"
+<x-pages pageTitle="Photos And Videos"  title="Photos And Videos"
     imgesUrlOne="{{ asset('/images/AIROOM/PhotosAndvideos/Midjourney.jpg') }}"
     imgesUrlTwo="{{ asset('/images/AIROOM/PhotosAndvideos/StableDiffusion.jpg') }}"
     imgesUrlThree="{{ asset('/images/AIROOM/ChatAI/ChatGPT.png') }}"
@@ -40,4 +40,4 @@
     routeNameThirteen="HailuoAI" routeNameFourteen="Pika" routeNameFifteen="LumaDreamMachine" routeNameSixteen="PixVerseAI" routeNameSeventeen="InVideo" routeNameEighteen="HeyGen" routeNameNineteen="Synthesia" routeNametwenty="Gemini" routeNametwentyone="nanobanana" routeNametwentytwo="LeonardoAI" routeNametwentythree="TensorArt"
     routeNametwentyfour="Civitai" routeNametwentyfive="Craiyon" routeNametwentysix="StarryAI" routeNametwentyseven="Artbreeder" routeNametwentyeight="FotorAI" routeNametwentynine="DeepAI" routeNamethirty="ImagineArt" routeNamethirtyone="GetimgAi" routeNamethirtytwo="SeaArtAI" routeNamethirtythree="OpenArt"
     routeNamethirtyfour="DzineAI" routeNamethirtyfive="HaiperAI" routeNamethirtysix="ViduAI" routeNamethirtyseven="HiggsfieldAI">
-</x-Pages>
+</x-pages>

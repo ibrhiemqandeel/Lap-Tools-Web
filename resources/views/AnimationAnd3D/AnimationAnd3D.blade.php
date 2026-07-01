@@ -1,4 +1,4 @@
-<x-Pages pageTitle="Animation And 3D" pageTitleAll="AnimationAnd3D" title="Animation And 3D"
+<x-pages pageTitle="Animation And 3D" pageTitleAll="AnimationAnd3D" title="Animation And 3D"
     imgesUrlOne="{{ asset('/images/AnimationAnd3D/BlenderStudio.png') }}"
     imgesUrlTwo="{{ asset('/images/AnimationAnd3D/Spline.png') }}"
     imgesUrlThree="{{ asset('/images/AnimationAnd3D/CGCookie.jpg') }}"
@@ -40,4 +40,4 @@
     routeNameThirteen="CGTrader" routeNameFourteen="TurboSquid" routeNameFifteen="RenderHub" routeNameSixteen="Free3D" routeNameSeventeen="BlendSwap" routeNameEighteen="PolyHaven" routeNameNineteen="ambientCG" routeNametwenty="TexturesCom" routeNametwentyone="TexturesMe3D" routeNametwentytwo="Mixamo" routeNametwentythree="Reallusion"
     routeNametwentyfour="QuixelMegascans" routeNametwentyfive="Daz3D" routeNametwentysix="MetaHumanCreator" routeNametwentyseven="ActionVFX" routeNametwentyeight="ProductionCrate" routeNametwentynine="VideoCopilot" routeNamethirty="ChaosVRay" routeNamethirtyone="CoronaRenderer" routeNamethirtytwo="OctaneRender" routeNamethirtythree="Redshift"
     routeNamethirtyfour="SchoolofMotion" routeNamethirtyfive="MotionDesignSchool" routeNamethirtysix="Kaiber" routeNamethirtyseven="MeshyAI">
-</x-Pages>
+</x-pages>

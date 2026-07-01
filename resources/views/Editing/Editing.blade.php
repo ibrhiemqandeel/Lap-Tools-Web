@@ -1,4 +1,4 @@
-<x-Pages pageTitle="Editing" pageTitleAll="Editing " title="Editing"
+<x-pages pageTitle="Editing" pageTitleAll="Editing " title="Editing"
     imgesUrlOne="{{ asset('/images/Editing/Clipchamp.png') }}"
     imgesUrlTwo="{{ asset('/images/Editing/Photopea.png') }}"
     imgesUrlThree="{{ asset('/images/Editing/Kapwing.png') }}"
@@ -40,4 +40,4 @@
     routeNameThirteen="EpidemicSound" routeNameFourteen="Pixabay" routeNameFifteen="PexelsVideo" routeNameSixteen="Videezy" routeNameSeventeen="AdobeColor" routeNameEighteen="Envato" routeNameNineteen="MotionArray" routeNametwenty="FrameIo" routeNametwentyone="Dribbble" routeNametwentytwo="ShareAE" routeNametwentythree="VFXDownload"
     routeNametwentyfour="FlexClip" routeNametwentyfive="Runway" routeNametwentysix="WeVideo" routeNametwentyseven="WaveVideo" routeNametwentyeight="Renderforest" routeNametwentynine="OpusClip" routeNamethirty="Pictory" routeNamethirtyone="Descript" routeNamethirtytwo="Lumen5" routeNamethirtythree="Filmora"
     routeNamethirtyfour="Flixier" routeNamethirtyfive="Biteable" routeNamethirtysix="Animaker" routeNamethirtyseven="Shotcut">
-</x-Pages>
+</x-pages>
