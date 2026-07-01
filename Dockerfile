@@ -29,7 +29,7 @@ RUN composer install --no-dev --optimize-autoloader
 RUN mkdir -p /var/www/database && \
     touch /var/www/database/database.sqlite && \
     chown -R www-data:www-data /var/www && \
-    chmod -R 775 /var/www/storage /var/www/bootstrap/cache /var/www/database
+    chmod -R 777 /var/www/storage /var/www/bootstrap/cache /var/www/database
 
 # نسخ إعدادات Nginx الافتراضية للتشغيل
 COPY nginx.conf /etc/nginx/sites-available/default
