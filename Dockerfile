@@ -37,4 +37,4 @@ COPY nginx.conf /etc/nginx/sites-available/default
 EXPOSE 80
 
 # أمر الإقلاع لتنظيف الكاش، عمل الـ Migrations، وتشغيل السيرفر
-CMD php artisan config:clear && php artisan cache:clear && php artisan migrate --force && service nginx start && php-fpm
+CMD php artisan migrate --force && php artisan config:clear && php artisan cache:clear && service nginx start && php-fpm
