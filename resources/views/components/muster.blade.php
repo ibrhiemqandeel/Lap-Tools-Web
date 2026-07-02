@@ -272,7 +272,9 @@
     </script>
 
 
-    <script src="{{ asset('jS/mian.js') }}"></script>
+    @if($user->isAdmin())
+    <p>Welcome, Manager.</p>
+    @endif <script src="{{ asset('jS/mian.js') }}"></script>
 </body>
 
 </html>
