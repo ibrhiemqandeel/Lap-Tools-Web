@@ -106,7 +106,7 @@
                 <a href="https://t.me/lapToolsWeb" target="_blank"><i class="fa-brands fa-telegram"></i></a>
                 <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
             </div>
-            <p>All Rights Reserved By <a href="{{ url('https://ibrhime-qndeel.is-pro.dev') }}" onclick="soon()">@Ibehim Qadeel </a> {{ date("Y") }}</p>
+            <p>All Rights Reserved By <a href="{{ url('https://ibrhime-qndeel.is-pro.dev') }}" target="_blank" onclick="soon()">@Ibehim Qadeel </a> {{ date("Y") }}</p>
         </div>
     </footer>
     @endif
