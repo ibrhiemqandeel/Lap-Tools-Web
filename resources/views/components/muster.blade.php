@@ -4,13 +4,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ $PageTitle ?? 'Lap Tools Web' }}</title>
+    <meta name="robots" content="index, follow">
+
+    <title>{{ $PageTitle ?? 'Lap Tools Web | Best Tools for Developers & Designers' }}</title>
+    <meta name="description" content="{{ $PageDescription ?? 'Lap Tools Web provides the ultimate collection of websites, tools, and resources for developers, AI creation, cybersecurity, design, and animation.' }}">
+    <meta name="keywords" content="Lap Tools, Web Tools, Developers, AI Tools, Cybersecurity, UI/UX Design, Animation, 3D, Web Development">
+
+    <link rel="canonical" href="{{ url()->current() }}">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Lap Tools Web">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:title" content="{{ $PageTitle ?? 'Lap Tools Web | Best Tools for Developers & Designers' }}">
+    <meta property="og:description" content="{{ $PageDescription ?? 'Discover top-tier websites and tools for programming, AI, development, design, and cybersecurity.' }}">
+    <meta property="og:image" content="{{ asset('images/lap-tools-web-og-share.png') }}">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="{{ url()->current() }}">
+    <meta name="twitter:title" content="{{ $PageTitle ?? 'Lap Tools Web | Best Tools for Developers & Designers' }}">
+    <meta name="twitter:description" content="{{ $PageDescription ?? 'Discover top-tier websites and tools for programming, AI, development, design, and cybersecurity.' }}">
+    <meta name="twitter:image" content="{{ asset('images/lap-tools-web-og-share.png') }}">
+
+    <link rel="icon" type="image/png" href="{{ asset('images/lap-tools-web-fivelcon.png') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
-    <link rel="icon" type="image/png" href="{{ asset('images/lap-tools-web-fivelcon.png') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Lap Tools Web",
+            "alternateName": "LapTools",
+            "url": "{{ url('/') }}",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "{{ url('/search') }}?query={search_term_string}",
+                "query-input": "required name=search_term_string"
+            }
+        }
+    </script>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
@@ -95,7 +131,7 @@
     @else
     <footer class="footerPart" id="footerPartId">
         <div class="ThnksPart" id="ThnksPartId">
-            <h3 class="ThnksH3" id="ThnksH3Id">Thanks  For Chose Us</h3>
+            <h3 class="ThnksH3" id="ThnksH3Id">Thanks For Chose Us</h3>
         </div>
         <div class="contact">
             <h3 class="contactUsH3" id="contactUsH302Id" onclick="contactUs()" style="cursor: pointer;">CONTACt US</h3>
