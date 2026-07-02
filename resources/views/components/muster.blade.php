@@ -151,6 +151,9 @@
     <!-- =======================  SEARCH BOX CSS  ===================== -->
     <!-- ============================================================= -->
     <style>
+        footer.footerPart{
+            margin-top: 20px;
+        }
         .searchResults {
             position: absolute;
             top: 110%;
@@ -201,6 +204,15 @@
             color: #fff;
         }
     </style>
+    @if(request()->routeIs('AIROOM'))
+    <style>
+        @media (max-width: 768px) {
+            footer.footerPart {
+                margin-top: 220px;
+            }
+        }
+    </style>
+    @endif
     <script>
         // زر backToTop الإضافي (مرتبط بـ Bootstrap btn-secondary)
         const backToTop = document.getElementById("backToTop");
@@ -267,9 +279,9 @@
     </script>
 
     @auth
-        @if(auth()->user()->isAdmin())
-        <p>Welcome, Manager.</p>
-        @endif
+    @if(auth()->user()->isAdmin())
+    <p>Welcome, Manager.</p>
+    @endif
     @endauth
 
     <script src="{{ asset('jS/mian.js') }}"></script>

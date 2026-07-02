@@ -222,11 +222,18 @@
 
                 .androidLink,
                 .iosLink {
-                    width: 40%;
+                    display: block;
+                    width: 80%;
+                    max-width: 300px;
+                    margin: 10px auto;
                     font-size: 1.6rem;
+                    text-align: center;
+                    padding: 12px 20px;
+                    border-radius: 6px;
                 }
             }
         </style>
+  
 
         <script src="{{ asset('js/main.js') }}"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

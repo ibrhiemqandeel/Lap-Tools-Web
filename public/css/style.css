@@ -805,6 +805,7 @@ footer div.contact div.ContactIcons a:hover i {
 /* =================== RESPONSIVE (<= 768px) =================== */
 /* ============================================================= */
 @media (max-width: 768px) {
+ 
 
     .logoweb {
         width: 30%;
@@ -876,6 +877,7 @@ footer div.contact div.ContactIcons a:hover i {
     .footerPart p {
         font-size: 0.9rem;
         padding: 0 10px;
+
     }
 }
 
