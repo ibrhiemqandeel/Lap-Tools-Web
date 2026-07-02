@@ -31,17 +31,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-
     <script type="application/ld+json">
         {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
+            "@@context": "https://schema.org",
+            "@@type": "WebSite",
             "name": "Lap Tools Web",
             "alternateName": "LapTools",
             "url": "{{ url('/') }}",
             "potentialAction": {
-                "@type": "SearchAction",
+                "@@type": "SearchAction",
                 "target": "{{ url('/search') }}?query={search_term_string}",
                 "query-input": "required name=search_term_string"
             }
@@ -126,9 +124,7 @@
         </a>
     </main>
 
-    @if (request()->routeIs('contactUs'))
-
-    @else
+    @unless(request()->routeIs('contactUs'))
     <footer class="footerPart" id="footerPartId">
         <div class="ThnksPart" id="ThnksPartId">
             <h3 class="ThnksH3" id="ThnksH3Id">Thanks For Chose Us</h3>
@@ -142,15 +138,14 @@
                 <a href="https://t.me/lapToolsWeb" target="_blank"><i class="fa-brands fa-telegram"></i></a>
                 <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
             </div>
-            <p>All Rights Reserved By <a href="{{ url('https://ibrhime-qndeel.is-pro.dev') }}" target="_blank" onclick="soon()">@Ibehim Qadeel </a> {{ date("Y") }}</p>
+            <p>All Rights Reserved By <a href="{{ url('https://ibrhime-qndeel.is-pro.dev') }}" target="_blank" onclick="soon()">&#64;Ibehim Qadeel</a> {{ date("Y") }}</p>
         </div>
     </footer>
-    @endif
+    @endunless
 
     <!-- ملف JS واحد فقط، تم حذف كل النسخ المكررة الـ inline -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
 
     <!-- ============================================================= -->
     <!-- =======================  SEARCH BOX CSS  ===================== -->
@@ -271,10 +266,15 @@
         }
     </script>
 
+    @auth
+        @if(auth()->user()->isAdmin())
+        <p>Welcome, Manager.</p>
+        @endif
+    @endauth
 
-    @if($user->isAdmin())
-    <p>Welcome, Manager.</p>
-    @endif <script src="{{ asset('jS/mian.js') }}"></script>
+    <script src="{{ asset('jS/mian.js') }}"></script>
+    <script src="https://unpkg.com/@@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
 </body>
 
 </html>
