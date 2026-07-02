@@ -2,7 +2,7 @@
     contentFourTwo="Back End "
     contentThree="Mobile App "
     contentFour="Game "
-    contentFive="AI Developmen"
+    contentFive="AI Development"
     contentSix="Data Science"
     contentSeven="UI/UX Design"
     contentEight="cyberSecurity"

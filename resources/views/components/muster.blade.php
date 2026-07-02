@@ -95,7 +95,7 @@
     @else
     <footer class="footerPart" id="footerPartId">
         <div class="ThnksPart" id="ThnksPartId">
-            <h3 class="ThnksH3" id="ThnksH3Id">Thnks For Chose Us</h3>
+            <h3 class="ThnksH3" id="ThnksH3Id">Thanks  For Chose Us</h3>
         </div>
         <div class="contact">
             <h3 class="contactUsH3" id="contactUsH302Id" onclick="contactUs()" style="cursor: pointer;">CONTACt US</h3>

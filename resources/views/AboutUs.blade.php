@@ -780,7 +780,7 @@
                     <div class="timeline-item">
                         <div class="timeline-year">founder</div>
                         <div class="timeline-body">
-                            <h3>Ibrhume Mohammed Qndeel</h3>
+                            <h3>ibrhim Mohammed Qndeel</h3>
                             <div class="company">Full Stack-Software engineer</div>
                             <p>Software Engineer and Full-Stack Web Developer specialized in building modern, responsive, and user-friendly web applications. Passionate about front-end and back-end development, UI/UX design, and creating innovative digital solutions with clean performance and professional user experiences.</p>
                         </div>
