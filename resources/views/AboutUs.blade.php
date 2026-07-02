@@ -804,7 +804,7 @@
                     <div class="timeline-item" style="padding-bottom:0">
                         <div class="timeline-year">The manager's personal website</div>
                         <div class="timeline-body">
-                            <a href="#">
+                            <a href="{{ url('https://ibrhime-qndeel.is-pro.dev') }}">
                                 <h3>Click To Visit</h3>
                             </a>
                             <div class="company">For direct contact with the manager</div>
