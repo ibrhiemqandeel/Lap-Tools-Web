@@ -107,7 +107,7 @@
                             <h4>Manager Website</h4>
                             <p class="text-muted mb-3">Visit the official portfolio</p>
 
-                            <a href="https://ibrahimgandeel.github.io/"
+                            <a href="{{ url('https://ibrhime-qndeel.is-pro.dev') }}"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 class="btn btn-primary d-flex align-items-center justify-content-center gap-2 px-3 py-2"
@@ -260,7 +260,7 @@
                 <h3 class="contactUsH3" id="contactUsH302Id" onclick="contactUs()" style="cursor: pointer;;">CONTACt US</h3>
                 <div class="ContactIcons"><a href="#"><i class="fa-brands fa-linkedin"></i></a><a href="#"><i class="fa-brands fa-x-twitter"></i></a><a href="#"><i class="fa-brands fa-square-instagram"></i></a><a href="https://t.me/lapToolsWeb" target="_blank"><i class="fa-brands fa-telegram"></i></a><a href="#"><i class="fa-brands fa-whatsapp"></i></a></div>
 
-                <p>All Rights Reserved By <a href="#" onclick="soon()">@Ibehim Qadeel </a> {{ date("Y") }}
+                <p>All Rights Reserved By <a href="{{ url('https://ibrhime-qndeel.is-pro.dev') }}" onclick="soon()">@Ibehim Qadeel </a> {{ date("Y") }}
 
                 </p>
             </div>
